@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name></name>
+        <description>TROPICAL CYCLONE FORMATION ALERT</description>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="TropicalBalloonStyle">
+		<LabelStyle>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
+			<bgColor>ffd9d1d1</bgColor>
+		</BalloonStyle>
+		<LineStyle id="IDstormtrack">
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f7faaaa</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+        <StyleMap id="BestTrackStyle">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#BestTrackStyle0</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#BestTrackStyle0</styleUrl>
+                </Pair>
+        </StyleMap>
+        <Style id="BestTrackStyle0">
+                <IconStyle>
+                        <scale>0.8</scale>
+                        <heading>0</heading>
+                        <Icon>
+                                <href>images/TD.png</href>
+                        </Icon>
+                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+                <BalloonStyle>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
+                        <bgColor>ffd9d1d1</bgColor>
+                </BalloonStyle>
+                <ListStyle>
+                </ListStyle>
+                <LineStyle>
+                        <color>ff7faaaa</color>
+                        <width>2</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7f7faaaa</color>
+                        <colorMode>random</colorMode>
+                </PolyStyle>
+        </Style>
+        <Style id="BestTrackStyle1">
+                <IconStyle>
+                        <scale>0.8</scale>
+                        <heading>0</heading>
+                        <Icon>
+                                <href>images/TDgray.png</href>
+                        </Icon>
+                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+                <BalloonStyle>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
+                        <bgColor>ffd9d1d1</bgColor>
+                </BalloonStyle>
+                <ListStyle>
+                </ListStyle>
+                <LineStyle>
+                        <color>ff7faaaa</color>
+                        <width>2</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7f7faaaa</color>
+                        <colorMode>random</colorMode>
+                </PolyStyle>
+        </Style>
+	<Placemark>
+		<name>TCFA AREA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+254.9,17.2,0 251.6,20.9,0 253.236,22.195,0 256.523,18.467,0 253.298,15.919,0 249.991,19.589,0 251.6,20.9,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+           <name>TROPICAL CYCLONE FORMATION ALERT -
+VALID TIME:07/1900Z</name>
+           <description>Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING WEST-NORTHWESTWARD AT 06 KNOTS.</description>
+           <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>-105.2,17.3,0</coordinates>
+              </Point>
+          </Placemark>
+    <Folder>
+       <name>Previous Best Track Posits</name>
+       <visibility>0</visibility>
+         <Placemark>
+              <name>24100518Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-101.6,16.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24100600Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-101.9,16.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24100606Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-102.5,16.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24100612Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-103.1,16.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24100618Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-103.5,16.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24100700Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-104,17.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24100706Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>-104.6,17.1,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+                <name>Best Track</name>
+                <styleUrl>#BestTrack</styleUrl>
+                <LineString>
+                        <tessellate>1</tessellate>
+                        <coordinates>
+  -101.6,16.0,0  -101.9,16.1,0  -102.5,16.3,0  -103.1,16.6,0  -103.5,16.8,0  -104,17.0,0  -104.6,17.1,0  -105.2,17.3,0 
+                        </coordinates>
+                </LineString>
+            </Placemark>
+    </Folder>
+    <ScreenOverlay>
+       <name>JTWC Logo</name>
+           <Icon>images/JTWCtranslogo.png</Icon>
+        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction" />
+        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction" />
+        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction" />
+        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction" />
+    </ScreenOverlay>
+</Document>
+</kml>
