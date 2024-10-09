@@ -1496,6 +1496,39 @@
 	       <dtg>0000 UTC OCT 09</dtg>
 	   </Placemark>
 
+	   <Placemark>
+	      <name>0600 UTC OCT 09</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC OCT 09</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>20.9 N, -47.5 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>987 mb; 29.14 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-47.5,20.9,0</coordinates>
+	       </Point>
+	       <lat>20.9</lat>
+	       <lon>-47.5</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>70</intensity>
+	       <intensityMPH>81</intensityMPH>
+	       <intensityKPH>130</intensityKPH>
+	       <minSeaLevelPres>987</minSeaLevelPres>
+	       <atcfdtg>2024100906</atcfdtg>
+	       <dtg>0600 UTC OCT 09</dtg>
+	   </Placemark>
+
         </Folder>
 <Folder>
 <name>Legend</name>
