@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for AL132024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 09-10-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 11-10-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -1527,6 +1527,237 @@
 	       <minSeaLevelPres>987</minSeaLevelPres>
 	       <atcfdtg>2024100906</atcfdtg>
 	       <dtg>0600 UTC OCT 09</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC OCT 09</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC OCT 09</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>21.4 N, -48.2 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>984 mb; 29.05 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>75 knots;  86 mph;  139 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-48.2,21.4,0</coordinates>
+	       </Point>
+	       <lat>21.4</lat>
+	       <lon>-48.2</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>75</intensity>
+	       <intensityMPH>86</intensityMPH>
+	       <intensityKPH>139</intensityKPH>
+	       <minSeaLevelPres>984</minSeaLevelPres>
+	       <atcfdtg>2024100912</atcfdtg>
+	       <dtg>1200 UTC OCT 09</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC OCT 09</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC OCT 09</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>21.9 N, -48.8 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>980 mb; 28.93 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>80 knots;  92 mph;  148 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-48.8,21.9,0</coordinates>
+	       </Point>
+	       <lat>21.9</lat>
+	       <lon>-48.8</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>80</intensity>
+	       <intensityMPH>92</intensityMPH>
+	       <intensityKPH>148</intensityKPH>
+	       <minSeaLevelPres>980</minSeaLevelPres>
+	       <atcfdtg>2024100918</atcfdtg>
+	       <dtg>1800 UTC OCT 09</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>22.3 N, -49.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>972 mb; 28.70 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-49.0,22.3,0</coordinates>
+	       </Point>
+	       <lat>22.3</lat>
+	       <lon>-49.0</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>90</intensity>
+	       <intensityMPH>104</intensityMPH>
+	       <intensityKPH>167</intensityKPH>
+	       <minSeaLevelPres>972</minSeaLevelPres>
+	       <atcfdtg>2024101000</atcfdtg>
+	       <dtg>0000 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>22.6 N, -49.6 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>972 mb; 28.70 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-49.6,22.6,0</coordinates>
+	       </Point>
+	       <lat>22.6</lat>
+	       <lon>-49.6</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>90</intensity>
+	       <intensityMPH>104</intensityMPH>
+	       <intensityKPH>167</intensityKPH>
+	       <minSeaLevelPres>972</minSeaLevelPres>
+	       <atcfdtg>2024101006</atcfdtg>
+	       <dtg>0600 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>22.9 N, -50.2 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>977 mb; 28.85 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>85 knots;  98 mph;  157 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-50.2,22.9,0</coordinates>
+	       </Point>
+	       <lat>22.9</lat>
+	       <lon>-50.2</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>85</intensity>
+	       <intensityMPH>98</intensityMPH>
+	       <intensityKPH>157</intensityKPH>
+	       <minSeaLevelPres>977</minSeaLevelPres>
+	       <atcfdtg>2024101012</atcfdtg>
+	       <dtg>1200 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>23.5 N, -50.8 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>992 mb; 29.29 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-50.8,23.5,0</coordinates>
+	       </Point>
+	       <lat>23.5</lat>
+	       <lon>-50.8</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>60</intensity>
+	       <intensityMPH>69</intensityMPH>
+	       <intensityKPH>111</intensityKPH>
+	       <minSeaLevelPres>992</minSeaLevelPres>
+	       <atcfdtg>2024101018</atcfdtg>
+	       <dtg>1800 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC OCT 11</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS LESLIE (AL132024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC OCT 11</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>24.1 N, -51.1 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>997 mb; 29.44 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>55 knots;  63 mph;  102 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-51.1,24.1,0</coordinates>
+	       </Point>
+	       <lat>24.1</lat>
+	       <lon>-51.1</lon>
+	       <stormName>LESLIE</stormName>
+	       <stormNum>13</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>55</intensity>
+	       <intensityMPH>63</intensityMPH>
+	       <intensityKPH>102</intensityKPH>
+	       <minSeaLevelPres>997</minSeaLevelPres>
+	       <atcfdtg>2024101100</atcfdtg>
+	       <dtg>0000 UTC OCT 11</dtg>
 	   </Placemark>
 
         </Folder>

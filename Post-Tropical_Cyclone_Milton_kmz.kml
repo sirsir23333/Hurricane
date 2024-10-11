@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for AL142024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 09-10-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 10-10-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -241,204 +241,6 @@
 	</Style>
 	<Folder id="data"> 
  	    <name>Data</name> 
-
-	   <Placemark>
-	      <name>0000 UTC OCT 04</name>
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description>
-	   	  <![CDATA[<table>
-	       		<tr><td>DB GENESIS028 (AL142024)</td></tr>
-	       		<tr><td><hr></td></tr>
-	       		<tr><td>0000 UTC OCT 04</td></tr>
-	       		<tr><td>Storm Location:</td></tr>
-	       		<tr><td> <B>20.6 N, -94.7 W</B> </td></tr>
-	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>0 mb; 0 in Hg</td></tr>
-	       		<tr><td>Maxium Intensity:</td></tr>
-	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
-	       </description>
-	       <styleUrl>#ex</styleUrl>
-	       <Point>
-	   	   <coordinates>-94.7,20.6,0</coordinates>
-	       </Point>
-	       <lat>20.6</lat>
-	       <lon>-94.7</lon>
-	       <stormName>GENESIS028</stormName>
-	       <stormNum>14</stormNum>
-	       <basin>AL</basin>
-	       <stormType>DB</stormType>
-	       <intensity>25</intensity>
-	       <intensityMPH>29</intensityMPH>
-	       <intensityKPH>46</intensityKPH>
-	       <minSeaLevelPres>0</minSeaLevelPres>
-	       <atcfdtg>2024100400</atcfdtg>
-	       <dtg>0000 UTC OCT 04</dtg>
-	   </Placemark>
-
-	   <Placemark>
-	      <name>0600 UTC OCT 04</name>
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description>
-	   	  <![CDATA[<table>
-	       		<tr><td>DB GENESIS028 (AL142024)</td></tr>
-	       		<tr><td><hr></td></tr>
-	       		<tr><td>0600 UTC OCT 04</td></tr>
-	       		<tr><td>Storm Location:</td></tr>
-	       		<tr><td> <B>20.7 N, -94.9 W</B> </td></tr>
-	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>0 mb; 0 in Hg</td></tr>
-	       		<tr><td>Maxium Intensity:</td></tr>
-	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
-	       </description>
-	       <styleUrl>#ex</styleUrl>
-	       <Point>
-	   	   <coordinates>-94.9,20.7,0</coordinates>
-	       </Point>
-	       <lat>20.7</lat>
-	       <lon>-94.9</lon>
-	       <stormName>GENESIS028</stormName>
-	       <stormNum>14</stormNum>
-	       <basin>AL</basin>
-	       <stormType>DB</stormType>
-	       <intensity>25</intensity>
-	       <intensityMPH>29</intensityMPH>
-	       <intensityKPH>46</intensityKPH>
-	       <minSeaLevelPres>0</minSeaLevelPres>
-	       <atcfdtg>2024100406</atcfdtg>
-	       <dtg>0600 UTC OCT 04</dtg>
-	   </Placemark>
-
-	   <Placemark>
-	      <name>1200 UTC OCT 04</name>
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description>
-	   	  <![CDATA[<table>
-	       		<tr><td>DB GENESIS028 (AL142024)</td></tr>
-	       		<tr><td><hr></td></tr>
-	       		<tr><td>1200 UTC OCT 04</td></tr>
-	       		<tr><td>Storm Location:</td></tr>
-	       		<tr><td> <B>20.8 N, -95.0 W</B> </td></tr>
-	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>0 mb; 0 in Hg</td></tr>
-	       		<tr><td>Maxium Intensity:</td></tr>
-	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
-	       </description>
-	       <styleUrl>#ex</styleUrl>
-	       <Point>
-	   	   <coordinates>-95.0,20.8,0</coordinates>
-	       </Point>
-	       <lat>20.8</lat>
-	       <lon>-95.0</lon>
-	       <stormName>GENESIS028</stormName>
-	       <stormNum>14</stormNum>
-	       <basin>AL</basin>
-	       <stormType>DB</stormType>
-	       <intensity>25</intensity>
-	       <intensityMPH>29</intensityMPH>
-	       <intensityKPH>46</intensityKPH>
-	       <minSeaLevelPres>0</minSeaLevelPres>
-	       <atcfdtg>2024100412</atcfdtg>
-	       <dtg>1200 UTC OCT 04</dtg>
-	   </Placemark>
-
-	   <Placemark>
-	      <name>1800 UTC OCT 04</name>
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description>
-	   	  <![CDATA[<table>
-	       		<tr><td>DB GENESIS028 (AL142024)</td></tr>
-	       		<tr><td><hr></td></tr>
-	       		<tr><td>1800 UTC OCT 04</td></tr>
-	       		<tr><td>Storm Location:</td></tr>
-	       		<tr><td> <B>20.9 N, -95.1 W</B> </td></tr>
-	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>0 mb; 0 in Hg</td></tr>
-	       		<tr><td>Maxium Intensity:</td></tr>
-	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
-	       </description>
-	       <styleUrl>#ex</styleUrl>
-	       <Point>
-	   	   <coordinates>-95.1,20.9,0</coordinates>
-	       </Point>
-	       <lat>20.9</lat>
-	       <lon>-95.1</lon>
-	       <stormName>GENESIS028</stormName>
-	       <stormNum>14</stormNum>
-	       <basin>AL</basin>
-	       <stormType>DB</stormType>
-	       <intensity>25</intensity>
-	       <intensityMPH>29</intensityMPH>
-	       <intensityKPH>46</intensityKPH>
-	       <minSeaLevelPres>0</minSeaLevelPres>
-	       <atcfdtg>2024100418</atcfdtg>
-	       <dtg>1800 UTC OCT 04</dtg>
-	   </Placemark>
-
-	   <Placemark>
-	      <name>0000 UTC OCT 05</name>
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description>
-	   	  <![CDATA[<table>
-	       		<tr><td>DB INVEST (AL142024)</td></tr>
-	       		<tr><td><hr></td></tr>
-	       		<tr><td>0000 UTC OCT 05</td></tr>
-	       		<tr><td>Storm Location:</td></tr>
-	       		<tr><td> <B>21.1 N, -95.2 W</B> </td></tr>
-	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>1009 mb; 29.79 in Hg</td></tr>
-	       		<tr><td>Maxium Intensity:</td></tr>
-	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]>
-	       </description>
-	       <styleUrl>#ex</styleUrl>
-	       <Point>
-	   	   <coordinates>-95.2,21.1,0</coordinates>
-	       </Point>
-	       <lat>21.1</lat>
-	       <lon>-95.2</lon>
-	       <stormName>INVEST</stormName>
-	       <stormNum>14</stormNum>
-	       <basin>AL</basin>
-	       <stormType>DB</stormType>
-	       <intensity>30</intensity>
-	       <intensityMPH>35</intensityMPH>
-	       <intensityKPH>56</intensityKPH>
-	       <minSeaLevelPres>1009</minSeaLevelPres>
-	       <atcfdtg>2024100500</atcfdtg>
-	       <dtg>0000 UTC OCT 05</dtg>
-	   </Placemark>
-
-	   <Placemark>
-	      <name>0600 UTC OCT 05</name>
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description>
-	   	  <![CDATA[<table>
-	       		<tr><td>DB INVEST (AL142024)</td></tr>
-	       		<tr><td><hr></td></tr>
-	       		<tr><td>0600 UTC OCT 05</td></tr>
-	       		<tr><td>Storm Location:</td></tr>
-	       		<tr><td> <B>21.6 N, -95.4 W</B> </td></tr>
-	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>1009 mb; 29.79 in Hg</td></tr>
-	       		<tr><td>Maxium Intensity:</td></tr>
-	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]>
-	       </description>
-	       <styleUrl>#ex</styleUrl>
-	       <Point>
-	   	   <coordinates>-95.4,21.6,0</coordinates>
-	       </Point>
-	       <lat>21.6</lat>
-	       <lon>-95.4</lon>
-	       <stormName>INVEST</stormName>
-	       <stormNum>14</stormNum>
-	       <basin>AL</basin>
-	       <stormType>DB</stormType>
-	       <intensity>30</intensity>
-	       <intensityMPH>35</intensityMPH>
-	       <intensityKPH>56</intensityKPH>
-	       <minSeaLevelPres>1009</minSeaLevelPres>
-	       <atcfdtg>2024100506</atcfdtg>
-	       <dtg>0600 UTC OCT 05</dtg>
-	   </Placemark>
 
 	   <Placemark>
 	      <name>1200 UTC OCT 05</name>
@@ -966,6 +768,204 @@
 	       <minSeaLevelPres>908</minSeaLevelPres>
 	       <atcfdtg>2024100906</atcfdtg>
 	       <dtg>0600 UTC OCT 09</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC OCT 09</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU MILTON (AL142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC OCT 09</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>25.0 N, -84.8 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>920 mb; 27.16 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>135 knots;  155 mph;  250 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat4</styleUrl>
+	       <Point>
+	   	   <coordinates>-84.8,25.0,0</coordinates>
+	       </Point>
+	       <lat>25.0</lat>
+	       <lon>-84.8</lon>
+	       <stormName>MILTON</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>135</intensity>
+	       <intensityMPH>155</intensityMPH>
+	       <intensityKPH>250</intensityKPH>
+	       <minSeaLevelPres>920</minSeaLevelPres>
+	       <atcfdtg>2024100912</atcfdtg>
+	       <dtg>1200 UTC OCT 09</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC OCT 09</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU MILTON (AL142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC OCT 09</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>26.3 N, -83.9 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>944 mb; 27.87 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>115 knots;  132 mph;  213 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat4</styleUrl>
+	       <Point>
+	   	   <coordinates>-83.9,26.3,0</coordinates>
+	       </Point>
+	       <lat>26.3</lat>
+	       <lon>-83.9</lon>
+	       <stormName>MILTON</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>115</intensity>
+	       <intensityMPH>132</intensityMPH>
+	       <intensityKPH>213</intensityKPH>
+	       <minSeaLevelPres>944</minSeaLevelPres>
+	       <atcfdtg>2024100918</atcfdtg>
+	       <dtg>1800 UTC OCT 09</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU MILTON (AL142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>27.2 N, -82.7 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>954 mb; 28.17 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>105 knots;  121 mph;  194 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat3</styleUrl>
+	       <Point>
+	   	   <coordinates>-82.7,27.2,0</coordinates>
+	       </Point>
+	       <lat>27.2</lat>
+	       <lon>-82.7</lon>
+	       <stormName>MILTON</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>105</intensity>
+	       <intensityMPH>121</intensityMPH>
+	       <intensityKPH>194</intensityKPH>
+	       <minSeaLevelPres>954</minSeaLevelPres>
+	       <atcfdtg>2024101000</atcfdtg>
+	       <dtg>0000 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU MILTON (AL142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>28.2 N, -81.3 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>975 mb; 28.79 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>80 knots;  92 mph;  148 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-81.3,28.2,0</coordinates>
+	       </Point>
+	       <lat>28.2</lat>
+	       <lon>-81.3</lon>
+	       <stormName>MILTON</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>80</intensity>
+	       <intensityMPH>92</intensityMPH>
+	       <intensityKPH>148</intensityKPH>
+	       <minSeaLevelPres>975</minSeaLevelPres>
+	       <atcfdtg>2024101006</atcfdtg>
+	       <dtg>0600 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU MILTON (AL142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>28.9 N, -79.5 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>983 mb; 29.02 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-79.5,28.9,0</coordinates>
+	       </Point>
+	       <lat>28.9</lat>
+	       <lon>-79.5</lon>
+	       <stormName>MILTON</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>70</intensity>
+	       <intensityMPH>81</intensityMPH>
+	       <intensityKPH>130</intensityKPH>
+	       <minSeaLevelPres>983</minSeaLevelPres>
+	       <atcfdtg>2024101012</atcfdtg>
+	       <dtg>1200 UTC OCT 10</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC OCT 10</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>EX MILTON (AL142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC OCT 10</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>29.5 N, -77.5 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>983 mb; 29.02 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>60 knots;  69 mph;  111 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ex</styleUrl>
+	       <Point>
+	   	   <coordinates>-77.5,29.5,0</coordinates>
+	       </Point>
+	       <lat>29.5</lat>
+	       <lon>-77.5</lon>
+	       <stormName>MILTON</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>EX</stormType>
+	       <intensity>60</intensity>
+	       <intensityMPH>69</intensityMPH>
+	       <intensityKPH>111</intensityKPH>
+	       <minSeaLevelPres>983</minSeaLevelPres>
+	       <atcfdtg>2024101018</atcfdtg>
+	       <dtg>1800 UTC OCT 10</dtg>
 	   </Placemark>
 
         </Folder>
