@@ -24,20 +24,23 @@ def delete_kml_files(base_directory: str) -> None:
     for file in file_list:
         if file.endswith('.kml'):
             os.remove(os.path.join(base_directory, file))
-
+        if os.path.exists(os.path.join(base_directory, 'hurricane_combined.geojson_old')):
+            os.remove(os.path.join(base_directory, 'hurricane_combined_old.geojson'))
 def webscraping_kmz_JTWC(base_directory: str) -> None:
+    file_names, kmz_file_paths = [], []
     driver = webdriver.Chrome()
     try:
         url = "https://www.metoc.navy.mil/jtwc/jtwc.html"
         driver.get(url)
         driver.implicitly_wait(5)
-        kmz_link_elements = WebDriverWait(driver, 5).until(
-            EC.presence_of_all_elements_located((By.LINK_TEXT, "Google Earth Overlay"))
-        )
-        if not kmz_link_elements:
+        try:
+            kmz_link_elements = WebDriverWait(driver, 5).until(
+                EC.presence_of_all_elements_located((By.LINK_TEXT, "Google Earth Overlay"))
+            )
+        except Exception as e:
             print("No Google Earth Overlay links found.")
-            return
-        file_names, kmz_file_paths = [], []
+            print(e)
+            return kmz_file_paths, file_names
         for index, kmz_link_element in enumerate(kmz_link_elements):
             kmz_url = kmz_link_element.get_attribute('href')
             print(f"KMZ File URL {index + 1}: {kmz_url}")
@@ -51,7 +54,6 @@ def webscraping_kmz_JTWC(base_directory: str) -> None:
             print(f"KMZ file {index + 1} saved to {kmz_file_path}")
     except Exception as e:
         print("Error occurred while scraping KMZ files:", e)
-        file_names, kmz_file_paths = [], []
     finally:
         driver.quit()
     return kmz_file_paths, file_names
