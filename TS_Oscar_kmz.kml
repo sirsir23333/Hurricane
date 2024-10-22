@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for AL162024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 20-10-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 22-10-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -1758,6 +1758,171 @@
 	       <minSeaLevelPres>986</minSeaLevelPres>
 	       <atcfdtg>2024102018</atcfdtg>
 	       <dtg>1800 UTC OCT 20</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC OCT 21</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU OSCAR (AL162024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC OCT 21</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>20.3 N, -74.5 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>988 mb; 29.17 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>65 knots;  75 mph;  120 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-74.5,20.3,0</coordinates>
+	       </Point>
+	       <lat>20.3</lat>
+	       <lon>-74.5</lon>
+	       <stormName>OSCAR</stormName>
+	       <stormNum>16</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>65</intensity>
+	       <intensityMPH>75</intensityMPH>
+	       <intensityKPH>120</intensityKPH>
+	       <minSeaLevelPres>988</minSeaLevelPres>
+	       <atcfdtg>2024102100</atcfdtg>
+	       <dtg>0000 UTC OCT 21</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC OCT 21</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS OSCAR (AL162024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC OCT 21</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>20.1 N, -74.9 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>996 mb; 29.41 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>50 knots;  58 mph;  93 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-74.9,20.1,0</coordinates>
+	       </Point>
+	       <lat>20.1</lat>
+	       <lon>-74.9</lon>
+	       <stormName>OSCAR</stormName>
+	       <stormNum>16</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>50</intensity>
+	       <intensityMPH>58</intensityMPH>
+	       <intensityKPH>93</intensityKPH>
+	       <minSeaLevelPres>996</minSeaLevelPres>
+	       <atcfdtg>2024102106</atcfdtg>
+	       <dtg>0600 UTC OCT 21</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC OCT 21</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS OSCAR (AL162024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC OCT 21</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>20.3 N, -75.4 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-75.4,20.3,0</coordinates>
+	       </Point>
+	       <lat>20.3</lat>
+	       <lon>-75.4</lon>
+	       <stormName>OSCAR</stormName>
+	       <stormNum>16</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>40</intensity>
+	       <intensityMPH>46</intensityMPH>
+	       <intensityKPH>74</intensityKPH>
+	       <minSeaLevelPres>1000</minSeaLevelPres>
+	       <atcfdtg>2024102112</atcfdtg>
+	       <dtg>1200 UTC OCT 21</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC OCT 21</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS OSCAR (AL162024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC OCT 21</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>20.7 N, -75.9 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1003 mb; 29.61 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-75.9,20.7,0</coordinates>
+	       </Point>
+	       <lat>20.7</lat>
+	       <lon>-75.9</lon>
+	       <stormName>OSCAR</stormName>
+	       <stormNum>16</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>35</intensity>
+	       <intensityMPH>40</intensityMPH>
+	       <intensityKPH>65</intensityKPH>
+	       <minSeaLevelPres>1003</minSeaLevelPres>
+	       <atcfdtg>2024102118</atcfdtg>
+	       <dtg>1800 UTC OCT 21</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC OCT 22</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS OSCAR (AL162024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC OCT 22</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>21.5 N, -75.6 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1005 mb; 29.67 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-75.6,21.5,0</coordinates>
+	       </Point>
+	       <lat>21.5</lat>
+	       <lon>-75.6</lon>
+	       <stormName>OSCAR</stormName>
+	       <stormNum>16</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>35</intensity>
+	       <intensityMPH>40</intensityMPH>
+	       <intensityKPH>65</intensityKPH>
+	       <minSeaLevelPres>1005</minSeaLevelPres>
+	       <atcfdtg>2024102200</atcfdtg>
+	       <dtg>0000 UTC OCT 22</dtg>
 	   </Placemark>
 
         </Folder>
