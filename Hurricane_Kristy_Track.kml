@@ -2,13 +2,13 @@
 
 	<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom"> 
 	<Document> 
-	<name>EP122024 (Advisory #5) - Forecast Track</name> 
+	<name>EP122024 (Advisory #9) - Forecast Track</name> 
 	<open>0</open> 
 	<description>
 		<![CDATA[<TABLE>
-		<TR><TD><B>Title:</B> Tropical Cyclone Forecast Track for EP122024 (Advisory #5)</TD></TR>
+		<TR><TD><B>Title:</B> Tropical Cyclone Forecast Track for EP122024 (Advisory #9)</TD></TR>
 		<TR><TD><B>Description:</B> This product will aid in the visualization of an official track forecast, the forecast points are connected by black line segments.  The track line(s) are not a forecast product, however, and because there are an infinite number of ways to connect a set of forecast points, the lines should not be interpreted as representing a specific forecast for the location of a tropical cyclone in between official forecast points.  It is also important to remember that tropical cyclone track forecasts are subject to error, and that the effects of a tropical cyclone can span many hundreds of miles from the center.</abstract></TD></TR>
-		<TR><TD><B>Date Created:</B> 10-22-2024 </TD></TR>
+		<TR><TD><B>Date Created:</B> 10-23-2024 </TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
 		<TR><TD><B>Disclaimer:</B>The official forecast track in KML format is an experimental product.</TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -160,7 +160,7 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5 </td></tr> 
+                        <tr><td>Advisory #9 </td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td>72 Hour Forecast Track</td></tr> 
 	           ]]> 
@@ -168,15 +168,15 @@
 	       <styleUrl>#72_line</styleUrl> 
 
 	       <LineString> 
-	         <coordinates>  -108.5,14.7,0 -111.0,14.6,0 -114.5,14.4,0 -118.0,14.2,0 -121.0,14.2,0 -123.8,14.7,0 -126.5,15.7,0 </coordinates> 
+	         <coordinates>  -115.5,14.1,0 -118.0,14.0,0 -121.0,14.1,0 -123.6,14.7,0 -126.0,15.8,0 -128.3,17.4,0 -130.1,19.5,0 </coordinates> 
 	       </LineString> 
 
               <ExtendedData>
                 <Data name="timezone"> 
-                  <value>MST</value>
+                  <value>PDT</value>
                 </Data> 
                 <Data name="stormType"> 
-                  <value>HU</value>
+                  <value>MH</value>
                 </Data> 
                 <Data name="basin"> 
                   <value>ep</value>
@@ -191,7 +191,7 @@
                   <value>EP122024</value>
                 </Data> 
                 <Data name="advisoryNum"> 
-                  <value>5</value>
+                  <value>9</value>
                 </Data> 
                 <Data name="stormNum"> 
                   <value>12</value>
@@ -200,28 +200,28 @@
                   <value>Kristy</value>
                 </Data> 
                 <Data name="pubAdvTime">
-                  <value>200 PM MST Tue Oct 22 2024</value>
+                  <value>200 PM PDT Wed Oct 23 2024</value>
                 </Data>
                 <Data name="TCInitLocation">
-                  <value>14.7N, 108.5W</value>
+                  <value>14.1N, 115.5W</value>
                 </Data>
                 <Data name="maxWindKnots">
-                  <value>65</value>
+                  <value>135</value>
                 </Data>
                 <Data name="maxWindMPH">
-                  <value>75</value>
+                  <value>155</value>
                 </Data>
                 <Data name="maxGustKnots">
-                  <value>75</value>
+                  <value>165</value>
                 </Data>
                 <Data name="maxGustMPH">
-                  <value>85</value>
+                  <value>190</value>
                 </Data>
                 <Data name="stormMovement">
                   <value>W</value>
                 </Data>
                 <Data name="minimumPressure">
-                  <value>988</value>
+                  <value>928</value>
                 </Data>
               </ExtendedData>
 	   </Placemark> 
@@ -231,7 +231,7 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5 </td></tr> 
+                        <tr><td>Advisory #9 </td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td>120 Hour Forecast Track</td></tr> 
 	           ]]> 
@@ -239,15 +239,15 @@
 	       <styleUrl>#120_line</styleUrl> 
 
 	       <LineString> 
-	         <coordinates>  -108.5,14.7,0 -111.0,14.6,0 -114.5,14.4,0 -118.0,14.2,0 -121.0,14.2,0 -123.8,14.7,0 -126.5,15.7,0 -130.7,18.7,0 -134.5,21.0,0 </coordinates> 
+	         <coordinates>  -115.5,14.1,0 -118.0,14.0,0 -121.0,14.1,0 -123.6,14.7,0 -126.0,15.8,0 -128.3,17.4,0 -130.1,19.5,0 -133.0,21.0,0 -136.0,20.0,0 </coordinates> 
 	       </LineString> 
 
               <ExtendedData>
                 <Data name="timezone"> 
-                  <value>MST</value>
+                  <value>PDT</value>
                 </Data> 
                 <Data name="stormType"> 
-                  <value>HU</value>
+                  <value>MH</value>
                 </Data> 
                 <Data name="basin"> 
                   <value>ep</value>
@@ -262,7 +262,7 @@
                   <value>EP122024</value>
                 </Data> 
                 <Data name="advisoryNum"> 
-                  <value>5</value>
+                  <value>9</value>
                 </Data> 
                 <Data name="stormNum"> 
                   <value>12</value>
@@ -279,19 +279,19 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>Advisory Information</td></tr> 
-	   	        <tr><td nowrap>Valid at:  2:00 PM MST October 22, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 14.7 N, -108.5 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 65 knots (75 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 75 knots (85 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at:  2:00 PM PDT October 23, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 14.1 N, -115.5 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 135 knots (155 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 165 knots (190 mph) </td></tr> 
                         <tr><td nowrap>Motion: W </td></tr>
-                        <tr><td nowrap>Minimum Pressure: 988 mb </td></tr>
+                        <tr><td nowrap>Minimum Pressure: 928 mb </td></tr>
 	       ]]></description> 
 	       <styleUrl>#initial_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -108.5,14.7,0 </coordinates> 
+	          <coordinates> -115.5,14.1,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -301,17 +301,17 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>12 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 PM MST October 22, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 14.6 N, -111.0 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 85 knots (100 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 105 knots (120 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 PM PDT October 23, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 14.0 N, -118.0 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 140 knots (160 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 170 knots (195 mph) </td></tr> 
 	       ]]></description> 
-	       <styleUrl>#h_point</styleUrl> 
+	       <styleUrl>#m_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -111.0,14.6,0 </coordinates> 
+	          <coordinates> -118.0,14.0,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -321,17 +321,17 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>24 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 AM MST October 23, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 14.4 N, -114.5 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 100 knots (115 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 120 knots (140 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 AM PDT October 24, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 14.1 N, -121.0 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 135 knots (155 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 165 knots (190 mph) </td></tr> 
 	       ]]></description> 
 	       <styleUrl>#m_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -114.5,14.4,0 </coordinates> 
+	          <coordinates> -121.0,14.1,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -341,17 +341,17 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>36 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 PM MST October 23, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 14.2 N, -118.0 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 105 knots (120 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 130 knots (150 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 PM PDT October 24, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 14.7 N, -123.6 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 125 knots (145 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 150 knots (175 mph) </td></tr> 
 	       ]]></description> 
 	       <styleUrl>#m_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -118.0,14.2,0 </coordinates> 
+	          <coordinates> -123.6,14.7,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -361,17 +361,17 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>48 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 AM MST October 24, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 14.2 N, -121.0 W </td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 AM PDT October 25, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 15.8 N, -126.0 W </td></tr> 
 	   	        <tr><td nowrap>Maximum Wind: 110 knots (125 mph) </td></tr> 
 	   	        <tr><td nowrap>Wind Gusts: 135 knots (155 mph) </td></tr> 
 	       ]]></description> 
 	       <styleUrl>#m_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -121.0,14.2,0 </coordinates> 
+	          <coordinates> -126.0,15.8,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -381,57 +381,17 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>60 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 PM MST October 24, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 14.7 N, -123.8 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 115 knots (130 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 140 knots (160 mph) </td></tr> 
-	       ]]></description> 
-	       <styleUrl>#m_point</styleUrl> 
-	       <Point> 
-	          <coordinates> -123.8,14.7,0 </coordinates> 
-	       </Point> 
-	   </Placemark> 
-
-
-	   <Placemark> 
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description> 
-	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
-                        <tr><td><hr></td></tr> 
-                        <tr><td nowrap>72 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 AM MST October 25, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 15.7 N, -126.5 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 110 knots (125 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 135 knots (155 mph) </td></tr> 
-	       ]]></description> 
-	       <styleUrl>#m_point</styleUrl> 
-	       <Point> 
-	          <coordinates> -126.5,15.7,0 </coordinates> 
-	       </Point> 
-	   </Placemark> 
-
-
-	   <Placemark> 
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description> 
-	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
-                        <tr><td><hr></td></tr> 
-                        <tr><td nowrap>96 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 AM MST October 26, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 18.7 N, -130.7 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 70 knots (80 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 85 knots (100 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 PM PDT October 25, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 17.4 N, -128.3 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 95 knots (110 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 115 knots (130 mph) </td></tr> 
 	       ]]></description> 
 	       <styleUrl>#h_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -130.7,18.7,0 </coordinates> 
+	          <coordinates> -128.3,17.4,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -441,17 +401,57 @@
 	      <description> 
 	   	  <![CDATA[<table> 
                         <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
-                        <tr><td>Advisory #5</td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
                         <tr><td><hr></td></tr> 
-                        <tr><td nowrap>120 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 11:00 AM MST October 27, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 21.0 N, -134.5 W </td></tr> 
+                        <tr><td nowrap>72 hr Forecast</td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 AM PDT October 26, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 19.5 N, -130.1 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 75 knots (85 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 90 knots (105 mph) </td></tr> 
+	       ]]></description> 
+	       <styleUrl>#h_point</styleUrl> 
+	       <Point> 
+	          <coordinates> -130.1,19.5,0 </coordinates> 
+	       </Point> 
+	   </Placemark> 
+
+
+	   <Placemark> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+                        <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
+                        <tr><td><hr></td></tr> 
+                        <tr><td nowrap>96 hr Forecast</td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 AM PDT October 27, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 21.0 N, -133.0 W </td></tr> 
 	   	        <tr><td nowrap>Maximum Wind: 40 knots (45 mph) </td></tr> 
 	   	        <tr><td nowrap>Wind Gusts: 50 knots (60 mph) </td></tr> 
 	       ]]></description> 
 	       <styleUrl>#xs_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -134.5,21.0,0 </coordinates> 
+	          <coordinates> -133.0,21.0,0 </coordinates> 
+	       </Point> 
+	   </Placemark> 
+
+
+	   <Placemark> 
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description> 
+	   	  <![CDATA[<table> 
+                        <tr><td><font color=black><b>Hurricane Kristy (EP122024)</b></font></td></tr> 
+                        <tr><td>Advisory #9</td></tr> 
+                        <tr><td><hr></td></tr> 
+                        <tr><td nowrap>120 hr Forecast</td></tr> 
+	   	        <tr><td nowrap>Valid at: 11:00 AM PDT October 28, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 20.0 N, -136.0 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 30 knots (35 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 40 knots (45 mph) </td></tr> 
+	       ]]></description> 
+	       <styleUrl>#xd_point</styleUrl> 
+	       <Point> 
+	          <coordinates> -136.0,20.0,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 

@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for EP122024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 22-10-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 23-10-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -636,6 +636,138 @@
 	       <minSeaLevelPres>993</minSeaLevelPres>
 	       <atcfdtg>2024102218</atcfdtg>
 	       <dtg>1800 UTC OCT 22</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC OCT 23</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU KRISTY (EP122024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC OCT 23</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>14.7 N, -109.2 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>983 mb; 29.02 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>70 knots;  81 mph;  130 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat1</styleUrl>
+	       <Point>
+	   	   <coordinates>-109.2,14.7,0</coordinates>
+	       </Point>
+	       <lat>14.7</lat>
+	       <lon>-109.2</lon>
+	       <stormName>KRISTY</stormName>
+	       <stormNum>12</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>70</intensity>
+	       <intensityMPH>81</intensityMPH>
+	       <intensityKPH>130</intensityKPH>
+	       <minSeaLevelPres>983</minSeaLevelPres>
+	       <atcfdtg>2024102300</atcfdtg>
+	       <dtg>0000 UTC OCT 23</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC OCT 23</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU KRISTY (EP122024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC OCT 23</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>14.5 N, -111.1 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>973 mb; 28.73 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>85 knots;  98 mph;  157 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-111.1,14.5,0</coordinates>
+	       </Point>
+	       <lat>14.5</lat>
+	       <lon>-111.1</lon>
+	       <stormName>KRISTY</stormName>
+	       <stormNum>12</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>85</intensity>
+	       <intensityMPH>98</intensityMPH>
+	       <intensityKPH>157</intensityKPH>
+	       <minSeaLevelPres>973</minSeaLevelPres>
+	       <atcfdtg>2024102306</atcfdtg>
+	       <dtg>0600 UTC OCT 23</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC OCT 23</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU KRISTY (EP122024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC OCT 23</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>14.4 N, -113.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>958 mb; 28.28 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>105 knots;  121 mph;  194 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat3</styleUrl>
+	       <Point>
+	   	   <coordinates>-113.0,14.4,0</coordinates>
+	       </Point>
+	       <lat>14.4</lat>
+	       <lon>-113.0</lon>
+	       <stormName>KRISTY</stormName>
+	       <stormNum>12</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>105</intensity>
+	       <intensityMPH>121</intensityMPH>
+	       <intensityKPH>194</intensityKPH>
+	       <minSeaLevelPres>958</minSeaLevelPres>
+	       <atcfdtg>2024102312</atcfdtg>
+	       <dtg>1200 UTC OCT 23</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC OCT 23</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU KRISTY (EP122024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC OCT 23</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>14.1 N, -114.7 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>932 mb; 27.52 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>130 knots;  150 mph;  241 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat4</styleUrl>
+	       <Point>
+	   	   <coordinates>-114.7,14.1,0</coordinates>
+	       </Point>
+	       <lat>14.1</lat>
+	       <lon>-114.7</lon>
+	       <stormName>KRISTY</stormName>
+	       <stormNum>12</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>130</intensity>
+	       <intensityMPH>150</intensityMPH>
+	       <intensityKPH>241</intensityKPH>
+	       <minSeaLevelPres>932</minSeaLevelPres>
+	       <atcfdtg>2024102318</atcfdtg>
+	       <dtg>1800 UTC OCT 23</dtg>
 	   </Placemark>
 
         </Folder>
