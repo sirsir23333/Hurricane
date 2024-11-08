@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for EP142024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 06-11-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 07-11-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -933,6 +933,138 @@
 	       <minSeaLevelPres>1006</minSeaLevelPres>
 	       <atcfdtg>2024110618</atcfdtg>
 	       <dtg>1800 UTC NOV 06</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TD FOURTEEN (EP142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>13.5 N, -105.1 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1007 mb; 29.73 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#td</styleUrl>
+	       <Point>
+	   	   <coordinates>-105.1,13.5,0</coordinates>
+	       </Point>
+	       <lat>13.5</lat>
+	       <lon>-105.1</lon>
+	       <stormName>FOURTEEN</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TD</stormType>
+	       <intensity>25</intensity>
+	       <intensityMPH>29</intensityMPH>
+	       <intensityKPH>46</intensityKPH>
+	       <minSeaLevelPres>1007</minSeaLevelPres>
+	       <atcfdtg>2024110700</atcfdtg>
+	       <dtg>0000 UTC NOV 07</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TD FOURTEEN (EP142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>13.5 N, -105.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1007 mb; 29.73 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#td</styleUrl>
+	       <Point>
+	   	   <coordinates>-105.0,13.5,0</coordinates>
+	       </Point>
+	       <lat>13.5</lat>
+	       <lon>-105.0</lon>
+	       <stormName>FOURTEEN</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TD</stormType>
+	       <intensity>25</intensity>
+	       <intensityMPH>29</intensityMPH>
+	       <intensityKPH>46</intensityKPH>
+	       <minSeaLevelPres>1007</minSeaLevelPres>
+	       <atcfdtg>2024110706</atcfdtg>
+	       <dtg>0600 UTC NOV 07</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TD FOURTEEN (EP142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>13.4 N, -104.6 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1007 mb; 29.73 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>25 knots;  29 mph;  46 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#td</styleUrl>
+	       <Point>
+	   	   <coordinates>-104.6,13.4,0</coordinates>
+	       </Point>
+	       <lat>13.4</lat>
+	       <lon>-104.6</lon>
+	       <stormName>FOURTEEN</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TD</stormType>
+	       <intensity>25</intensity>
+	       <intensityMPH>29</intensityMPH>
+	       <intensityKPH>46</intensityKPH>
+	       <minSeaLevelPres>1007</minSeaLevelPres>
+	       <atcfdtg>2024110712</atcfdtg>
+	       <dtg>1200 UTC NOV 07</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>DB FOURTEEN (EP142024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>12.7 N, -104.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1009 mb; 29.79 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>20 knots;  23 mph;  37 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ex</styleUrl>
+	       <Point>
+	   	   <coordinates>-104.0,12.7,0</coordinates>
+	       </Point>
+	       <lat>12.7</lat>
+	       <lon>-104.0</lon>
+	       <stormName>FOURTEEN</stormName>
+	       <stormNum>14</stormNum>
+	       <basin>AL</basin>
+	       <stormType>DB</stormType>
+	       <intensity>20</intensity>
+	       <intensityMPH>23</intensityMPH>
+	       <intensityKPH>37</intensityKPH>
+	       <minSeaLevelPres>1009</minSeaLevelPres>
+	       <atcfdtg>2024110718</atcfdtg>
+	       <dtg>1800 UTC NOV 07</dtg>
 	   </Placemark>
 
         </Folder>

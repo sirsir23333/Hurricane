@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for AL182024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 06-11-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 07-11-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -966,6 +966,138 @@
 	       <minSeaLevelPres>956</minSeaLevelPres>
 	       <atcfdtg>2024110618</atcfdtg>
 	       <dtg>1800 UTC NOV 06</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU RAFAEL (AL182024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>23.2 N, -83.2 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>966 mb; 28.52 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-83.2,23.2,0</coordinates>
+	       </Point>
+	       <lat>23.2</lat>
+	       <lon>-83.2</lon>
+	       <stormName>RAFAEL</stormName>
+	       <stormNum>18</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>90</intensity>
+	       <intensityMPH>104</intensityMPH>
+	       <intensityKPH>167</intensityKPH>
+	       <minSeaLevelPres>966</minSeaLevelPres>
+	       <atcfdtg>2024110700</atcfdtg>
+	       <dtg>0000 UTC NOV 07</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU RAFAEL (AL182024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>23.8 N, -84.1 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>969 mb; 28.61 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-84.1,23.8,0</coordinates>
+	       </Point>
+	       <lat>23.8</lat>
+	       <lon>-84.1</lon>
+	       <stormName>RAFAEL</stormName>
+	       <stormNum>18</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>90</intensity>
+	       <intensityMPH>104</intensityMPH>
+	       <intensityKPH>167</intensityKPH>
+	       <minSeaLevelPres>969</minSeaLevelPres>
+	       <atcfdtg>2024110706</atcfdtg>
+	       <dtg>0600 UTC NOV 07</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU RAFAEL (AL182024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>24.3 N, -84.9 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>969 mb; 28.61 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-84.9,24.3,0</coordinates>
+	       </Point>
+	       <lat>24.3</lat>
+	       <lon>-84.9</lon>
+	       <stormName>RAFAEL</stormName>
+	       <stormNum>18</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>90</intensity>
+	       <intensityMPH>104</intensityMPH>
+	       <intensityKPH>167</intensityKPH>
+	       <minSeaLevelPres>969</minSeaLevelPres>
+	       <atcfdtg>2024110712</atcfdtg>
+	       <dtg>1200 UTC NOV 07</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC NOV 07</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>HU RAFAEL (AL182024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC NOV 07</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>24.6 N, -85.7 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>968 mb; 28.58 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>90 knots;  104 mph;  167 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#cat2</styleUrl>
+	       <Point>
+	   	   <coordinates>-85.7,24.6,0</coordinates>
+	       </Point>
+	       <lat>24.6</lat>
+	       <lon>-85.7</lon>
+	       <stormName>RAFAEL</stormName>
+	       <stormNum>18</stormNum>
+	       <basin>AL</basin>
+	       <stormType>HU</stormType>
+	       <intensity>90</intensity>
+	       <intensityMPH>104</intensityMPH>
+	       <intensityKPH>167</intensityKPH>
+	       <minSeaLevelPres>968</minSeaLevelPres>
+	       <atcfdtg>2024110718</atcfdtg>
+	       <dtg>1800 UTC NOV 07</dtg>
 	   </Placemark>
 
         </Folder>
