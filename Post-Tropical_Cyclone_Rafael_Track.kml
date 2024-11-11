@@ -2,13 +2,13 @@
 
 	<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom"> 
 	<Document> 
-	<name>AL182024 (Advisory #17) - Forecast Track</name> 
+	<name>AL182024 (Advisory #30) - Forecast Track</name> 
 	<open>0</open> 
 	<description>
 		<![CDATA[<TABLE>
-		<TR><TD><B>Title:</B> Tropical Cyclone Forecast Track for AL182024 (Advisory #17)</TD></TR>
+		<TR><TD><B>Title:</B> Tropical Cyclone Forecast Track for AL182024 (Advisory #30)</TD></TR>
 		<TR><TD><B>Description:</B> This product will aid in the visualization of an official track forecast, the forecast points are connected by black line segments.  The track line(s) are not a forecast product, however, and because there are an infinite number of ways to connect a set of forecast points, the lines should not be interpreted as representing a specific forecast for the location of a tropical cyclone in between official forecast points.  It is also important to remember that tropical cyclone track forecasts are subject to error, and that the effects of a tropical cyclone can span many hundreds of miles from the center.</abstract></TD></TR>
-		<TR><TD><B>Date Created:</B> 11-07-2024 </TD></TR>
+		<TR><TD><B>Date Created:</B> 11-10-2024 </TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center</TD></TR>
 		<TR><TD><B>Disclaimer:</B>The official forecast track in KML format is an experimental product.</TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -159,8 +159,8 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17 </td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30 </td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td>72 Hour Forecast Track</td></tr> 
 	           ]]> 
@@ -168,7 +168,7 @@
 	       <styleUrl>#72_line</styleUrl> 
 
 	       <LineString> 
-	         <coordinates>  -86.2,24.7,0 -87.5,24.7,0 -89.2,24.7,0 -90.5,24.8,0 -91.5,25.0,0 -92.2,25.2,0 -92.6,25.1,0 </coordinates> 
+	         <coordinates>  -91.3,26.1,0 -90.9,25.8,0 -90.7,25.1,0 -91.0,24.1,0 -92.0,23.2,0 </coordinates> 
 	       </LineString> 
 
               <ExtendedData>
@@ -176,7 +176,7 @@
                   <value>CST</value>
                 </Data> 
                 <Data name="stormType"> 
-                  <value>HU</value>
+                  <value>PTC</value>
                 </Data> 
                 <Data name="basin"> 
                   <value>al</value>
@@ -185,13 +185,13 @@
                   <value>72</value>
                 </Data> 
                 <Data name="storm"> 
-                  <value>Hurricane Rafael</value>
+                  <value>Post-Tropical Cyclone Rafael</value>
                 </Data> 
                 <Data name="atcfid"> 
                   <value>AL182024</value>
                 </Data> 
                 <Data name="advisoryNum"> 
-                  <value>17</value>
+                  <value>30</value>
                 </Data> 
                 <Data name="stormNum"> 
                   <value>18</value>
@@ -200,28 +200,28 @@
                   <value>Rafael</value>
                 </Data> 
                 <Data name="pubAdvTime">
-                  <value>300 PM CST Thu Nov 07 2024</value>
+                  <value>300 PM CST Sun Nov 10 2024</value>
                 </Data>
                 <Data name="TCInitLocation">
-                  <value>24.7N, 86.2W</value>
+                  <value>26.1N, 91.3W</value>
                 </Data>
                 <Data name="maxWindKnots">
-                  <value>90</value>
+                  <value>30</value>
                 </Data>
                 <Data name="maxWindMPH">
-                  <value>105</value>
+                  <value>35</value>
                 </Data>
                 <Data name="maxGustKnots">
-                  <value>110</value>
+                  <value>40</value>
                 </Data>
                 <Data name="maxGustMPH">
-                  <value>125</value>
+                  <value>45</value>
                 </Data>
                 <Data name="stormMovement">
-                  <value>WNW</value>
+                  <value>E</value>
                 </Data>
                 <Data name="minimumPressure">
-                  <value>968</value>
+                  <value>1006</value>
                 </Data>
               </ExtendedData>
 	   </Placemark> 
@@ -230,8 +230,8 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17 </td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30 </td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td>120 Hour Forecast Track</td></tr> 
 	           ]]> 
@@ -239,7 +239,7 @@
 	       <styleUrl>#120_line</styleUrl> 
 
 	       <LineString> 
-	         <coordinates>  -86.2,24.7,0 -87.5,24.7,0 -89.2,24.7,0 -90.5,24.8,0 -91.5,25.0,0 -92.2,25.2,0 -92.6,25.1,0 -93.3,23.7,0 -94.0,22.0,0 </coordinates> 
+	         <coordinates>  -91.3,26.1,0 -90.9,25.8,0 -90.7,25.1,0 -91.0,24.1,0 -92.0,23.2,0 </coordinates> 
 	       </LineString> 
 
               <ExtendedData>
@@ -247,7 +247,7 @@
                   <value>CST</value>
                 </Data> 
                 <Data name="stormType"> 
-                  <value>HU</value>
+                  <value>PTC</value>
                 </Data> 
                 <Data name="basin"> 
                   <value>al</value>
@@ -256,13 +256,13 @@
                   <value>120</value>
                 </Data> 
                 <Data name="storm"> 
-                  <value>Hurricane Rafael</value>
+                  <value>Post-Tropical Cyclone Rafael</value>
                 </Data> 
                 <Data name="atcfid"> 
                   <value>AL182024</value>
                 </Data> 
                 <Data name="advisoryNum"> 
-                  <value>17</value>
+                  <value>30</value>
                 </Data> 
                 <Data name="stormNum"> 
                   <value>18</value>
@@ -278,20 +278,20 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>Advisory Information</td></tr> 
-	   	        <tr><td nowrap>Valid at:  3:00 PM CST November 07, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 24.7 N, -86.2 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 90 knots (105 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 110 knots (125 mph) </td></tr> 
-                        <tr><td nowrap>Motion: WNW </td></tr>
-                        <tr><td nowrap>Minimum Pressure: 968 mb </td></tr>
+	   	        <tr><td nowrap>Valid at:  3:00 PM CST November 10, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 26.1 N, -91.3 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 30 knots (35 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 40 knots (45 mph) </td></tr> 
+                        <tr><td nowrap>Motion: E </td></tr>
+                        <tr><td nowrap>Minimum Pressure: 1006 mb </td></tr>
 	       ]]></description> 
 	       <styleUrl>#initial_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -86.2,24.7,0 </coordinates> 
+	          <coordinates> -91.3,26.1,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -300,18 +300,18 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>12 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 AM CST November 08, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 24.7 N, -87.5 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 90 knots (105 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 110 knots (125 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 12:00 AM CST November 11, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 25.8 N, -90.9 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 25 knots (30 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 35 knots (40 mph) </td></tr> 
 	       ]]></description> 
-	       <styleUrl>#h_point</styleUrl> 
+	       <styleUrl>#xd_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -87.5,24.7,0 </coordinates> 
+	          <coordinates> -90.9,25.8,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -320,18 +320,18 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>24 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 PM CST November 08, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 24.7 N, -89.2 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 85 knots (100 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 105 knots (120 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 12:00 PM CST November 11, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 25.1 N, -90.7 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 25 knots (30 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 35 knots (40 mph) </td></tr> 
 	       ]]></description> 
-	       <styleUrl>#h_point</styleUrl> 
+	       <styleUrl>#xd_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -89.2,24.7,0 </coordinates> 
+	          <coordinates> -90.7,25.1,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -340,18 +340,18 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>36 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 AM CST November 09, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 24.8 N, -90.5 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 75 knots (85 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 90 knots (105 mph) </td></tr> 
+	   	        <tr><td nowrap>Valid at: 12:00 AM CST November 12, 2024 </td></tr> 
+	   	        <tr><td nowrap>Location: 24.1 N, -91.0 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 20 knots (25 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 30 knots (35 mph) </td></tr> 
 	       ]]></description> 
-	       <styleUrl>#h_point</styleUrl> 
+	       <styleUrl>#xd_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -90.5,24.8,0 </coordinates> 
+	          <coordinates> -91.0,24.1,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
@@ -360,98 +360,18 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description> 
 	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
+                        <tr><td><font color=black><b>Post-Tropical Cyclone Rafael (AL182024)</b></font></td></tr> 
+                        <tr><td>Advisory #30</td></tr> 
                         <tr><td><hr></td></tr> 
                         <tr><td nowrap>48 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 PM CST November 09, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 25.0 N, -91.5 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 65 knots (75 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 80 knots (90 mph) </td></tr> 
-	       ]]></description> 
-	       <styleUrl>#h_point</styleUrl> 
-	       <Point> 
-	          <coordinates> -91.5,25.0,0 </coordinates> 
-	       </Point> 
-	   </Placemark> 
-
-
-	   <Placemark> 
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description> 
-	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
-                        <tr><td><hr></td></tr> 
-                        <tr><td nowrap>60 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 AM CST November 10, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 25.2 N, -92.2 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 55 knots (65 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 65 knots (75 mph) </td></tr> 
-	       ]]></description> 
-	       <styleUrl>#s_point</styleUrl> 
-	       <Point> 
-	          <coordinates> -92.2,25.2,0 </coordinates> 
-	       </Point> 
-	   </Placemark> 
-
-
-	   <Placemark> 
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description> 
-	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
-                        <tr><td><hr></td></tr> 
-                        <tr><td nowrap>72 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 PM CST November 10, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 25.1 N, -92.6 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 45 knots (50 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 55 knots (65 mph) </td></tr> 
-	       ]]></description> 
-	       <styleUrl>#s_point</styleUrl> 
-	       <Point> 
-	          <coordinates> -92.6,25.1,0 </coordinates> 
-	       </Point> 
-	   </Placemark> 
-
-
-	   <Placemark> 
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description> 
-	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
-                        <tr><td><hr></td></tr> 
-                        <tr><td nowrap>96 hr Forecast</td></tr> 
-	   	        <tr><td nowrap>Valid at: 12:00 PM CST November 11, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 23.7 N, -93.3 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 35 knots (40 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 45 knots (50 mph) </td></tr> 
-	       ]]></description> 
-	       <styleUrl>#s_point</styleUrl> 
-	       <Point> 
-	          <coordinates> -93.3,23.7,0 </coordinates> 
-	       </Point> 
-	   </Placemark> 
-
-
-	   <Placemark> 
-	      <Snippet maxLines="0">empty</Snippet>
-	      <description> 
-	   	  <![CDATA[<table> 
-                        <tr><td><font color=black><b>Hurricane Rafael (AL182024)</b></font></td></tr> 
-                        <tr><td>Advisory #17</td></tr> 
-                        <tr><td><hr></td></tr> 
-                        <tr><td nowrap>120 hr Forecast</td></tr> 
 	   	        <tr><td nowrap>Valid at: 12:00 PM CST November 12, 2024 </td></tr> 
-	   	        <tr><td nowrap>Location: 22.0 N, -94.0 W </td></tr> 
-	   	        <tr><td nowrap>Maximum Wind: 35 knots (40 mph) </td></tr> 
-	   	        <tr><td nowrap>Wind Gusts: 45 knots (50 mph) </td></tr> 
+	   	        <tr><td nowrap>Location: 23.2 N, -92.0 W </td></tr> 
+	   	        <tr><td nowrap>Maximum Wind: 20 knots (25 mph) </td></tr> 
+	   	        <tr><td nowrap>Wind Gusts: 30 knots (35 mph) </td></tr> 
 	       ]]></description> 
-	       <styleUrl>#s_point</styleUrl> 
+	       <styleUrl>#xd_point</styleUrl> 
 	       <Point> 
-	          <coordinates> -94.0,22.0,0 </coordinates> 
+	          <coordinates> -92.0,23.2,0 </coordinates> 
 	       </Point> 
 	   </Placemark> 
 
