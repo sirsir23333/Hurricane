@@ -4,8 +4,8 @@
 	<name>JTWC WARNINGS</name>
 	<open>1</open>
         <LookAt>
-         <longitude>111.5</longitude>
-         <latitude>17.1</latitude>
+         <longitude>109.5</longitude>
+         <latitude>14.3</latitude>
          <altitude>0</altitude>
          <range>2750000.00</range>
          <tilt>0</tilt>
@@ -217,33 +217,31 @@
 	<Folder>
              <name>YINXING</name>
              <open>1</open>
-             <description>TROPICAL STORM 24W (YINXING) WARNING NR 32    </description>
+             <description>TROPICAL DEPRESSION 24W (YINXING) WARNING NR 36    </description>
              <Folder>
                <name>Forecast</name>
              <Placemark>
-                        <name>11/00Z (TROPICAL STORM 24W (YINXING) WARNING NR 32    - 35 knots)</name>
+                        <name>12/00Z (TROPICAL DEPRESSION 24W (YINXING) WARNING NR 36    - 30 knots)</name>
                    <Snippet maxLines="0">empty</Snippet>
                <description><pre>
-TROPICAL STORM 24W (YINXING) WARNING #32
-WTPN31 PGTW 110300    
-110000Z POSIT: NEAR 17.1N 111.5E
-MOVING 205 DEGREES TRUE AT 12 KNOTS
+TROPICAL DEPRESSION 24W (YINXING) WARNING #36
+WTPN31 PGTW 120300    
+120000Z POSIT: NEAR 14.3N 109.5E
+MOVING 215 DEGREES TRUE AT 07 KNOTS
 MAXIMUM SIGNIFICANT WAVE HEIGHT: 12 FEET 
-11/00Z, WINDS 035 KTS, GUSTS TO 045 KTS
-11/12Z, WINDS 025 KTS, GUSTS TO 035 KTS
-12/00Z, WINDS 020 KTS, GUSTS TO 030 KTS
+12/00Z, WINDS 030 KTS, GUSTS TO 040 KTS
+12/12Z, WINDS 020 KTS, GUSTS TO 030 KTS
+13/00Z, WINDS 015 KTS, GUSTS TO 025 KTS
 ________________________________________
           
 CPA TO:               NM     DTG
-Da_Nang               124  11/11/19Z
-Ho_Chi_Minh_City      274  11/12/00Z
+Ho_Chi_Minh_City      137  11/12/22Z
 ________________________________________
           
 Bearing and Distance      Dir  Dist  TAU
                                (nm) (hrs)
-Da_Nang                   070   196    0
-Hanoi                     125   394    0
-Hong_Kong                 207   347    0               </pre>
+Da_Nang                   146   123    0
+Ho_Chi_Minh_City          038   266    0               </pre>
                </description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
@@ -252,29 +250,16 @@ Hong_Kong                 207   347    0               </pre>
                                 <scale>1.0</scale>
                                 <heading>0</heading>
                                 <Icon>
-                                                <href>images/TSgray.png</href>
+                                                <href>images/TDgray.png</href>
                                 </Icon>
                           </IconStyle>
                      </Style>
                      <Point>
-                                <coordinates>111.5,17.1,0</coordinates>
+                                <coordinates>109.5,14.3,0</coordinates>
                      </Point>
              </Placemark>
              <Placemark>
-                  <name>RADIUS OF 34 KT WINDS</name>
-                  <styleUrl>#WindRadii34</styleUrl>
-                      <Polygon>
-                          <tessellate>1</tessellate>
-                          <outerBoundaryIs>
-                                  <LinearRing>
-                                          <coordinates>
-111.500,18.598,0 111.555,18.598,0 111.610,18.595,0 111.665,18.590,0 111.720,18.584,0 111.774,18.576,0 111.828,18.565,0 111.882,18.554,0 111.935,18.540,0 111.988,18.525,0 112.040,18.507,0 112.092,18.488,0 112.142,18.468,0 112.192,18.446,0 112.241,18.422,0 112.289,18.396,0 112.336,18.369,0 112.383,18.340,0 112.428,18.310,0 112.471,18.278,0 112.514,18.245,0 112.555,18.211,0 112.595,18.175,0 112.634,18.138,0 112.671,18.099,0 112.707,18.059,0 112.742,18.019,0 112.774,17.977,0 112.806,17.933,0 112.835,17.889,0 112.863,17.844,0 112.890,17.798,0 112.914,17.752,0 112.937,17.704,0 112.958,17.656,0 112.977,17.607,0 112.995,17.557,0 113.010,17.507,0 113.024,17.456,0 113.036,17.405,0 113.046,17.354,0 113.054,17.302,0 113.061,17.250,0 113.065,17.198,0 113.067,17.146,0 113.068,17.093,0 112.109,17.099,0 112.108,17.058,0 112.106,17.038,0 112.103,17.017,0 112.100,16.997,0 112.096,16.977,0 112.091,16.958,0 112.085,16.938,0 112.079,16.919,0 112.072,16.899,0 112.064,16.880,0 112.056,16.862,0 112.047,16.843,0 112.037,16.825,0 112.027,16.807,0 112.016,16.790,0 112.004,16.773,0 111.992,16.756,0 111.979,16.740,0 111.966,16.724,0 111.952,16.709,0 111.937,16.694,0 111.922,16.680,0 111.907,16.666,0 111.891,16.653,0 111.874,16.640,0 111.857,16.628,0 111.840,16.616,0 111.822,16.605,0 111.804,16.594,0 111.785,16.585,0 111.766,16.575,0 111.747,16.567,0 111.727,16.559,0 111.707,16.552,0 111.687,16.545,0 111.667,16.539,0 111.647,16.534,0 111.626,16.529,0 111.605,16.525,0 111.584,16.522,0 111.563,16.520,0 111.542,16.518,0 111.521,16.517,0 111.500,16.517,0 111.500,16.433,0 111.451,16.435,0 111.427,16.437,0 111.403,16.440,0 111.379,16.443,0 111.355,16.448,0 111.331,16.453,0 111.308,16.459,0 111.285,16.466,0 111.262,16.473,0 111.239,16.482,0 111.217,16.491,0 111.195,16.500,0 111.173,16.511,0 111.152,16.522,0 111.131,16.534,0 111.111,16.547,0 111.091,16.560,0 111.072,16.574,0 111.053,16.589,0 111.034,16.604,0 111.017,16.620,0 110.999,16.636,0 110.983,16.653,0 110.967,16.671,0 110.951,16.689,0 110.937,16.707,0 110.923,16.726,0 110.909,16.746,0 110.897,16.766,0 110.885,16.786,0 110.874,16.806,0 110.864,16.828,0 110.854,16.849,0 110.845,16.871,0 110.837,16.893,0 110.830,16.915,0 110.824,16.937,0 110.818,16.960,0 110.813,16.983,0 110.810,17.006,0 110.807,17.029,0 110.804,17.052,0 110.803,17.075,0 110.802,17.098,0 109.931,17.093,0 109.934,17.198,0 109.938,17.250,0 109.945,17.302,0 109.953,17.354,0 109.963,17.405,0 109.975,17.456,0 109.989,17.507,0 110.004,17.557,0 110.022,17.607,0 110.041,17.656,0 110.062,17.704,0 110.085,17.752,0 110.109,17.798,0 110.136,17.844,0 110.164,17.889,0 110.193,17.933,0 110.225,17.977,0 110.257,18.019,0 110.292,18.059,0 110.328,18.099,0 110.365,18.138,0 110.404,18.175,0 110.444,18.211,0 110.485,18.245,0 110.528,18.278,0 110.571,18.310,0 110.616,18.340,0 110.663,18.369,0 110.710,18.396,0 110.758,18.422,0 110.807,18.446,0 110.857,18.468,0 110.907,18.488,0 110.959,18.507,0 111.011,18.525,0 111.064,18.540,0 111.117,18.554,0 111.171,18.565,0 111.225,18.576,0 111.279,18.584,0 111.334,18.590,0 111.389,18.595,0 111.444,18.598,0 111.499,18.598,0 111.500,18.598,0  </coordinates>
-                                  </LinearRing>
-                          </outerBoundaryIs>
-                      </Polygon>
-                  </Placemark>
-             <Placemark>
-                        <name>11/12Z - 25 knots</name>
+                        <name>12/12Z - 20 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
                     <description><![CDATA[<html>
 <head>
@@ -282,10 +267,10 @@ Hong_Kong                 207   347    0               </pre>
 </head>
 <table width="400" bgcolor="white" border="1">
 <tr><td><B>NAME</B></td><td><B>YINXING</B></td></tr>
-<tr><td><B>TIME</B></td><td><B>TAU 12 - 2024111112Z</B></td></tr>
-<tr><td><B>POSIT</B></td><td><B>15.6 N, 110.6 E</B></td></tr>
-<tr><td><B>WRNG NMBR</B></td><td><B>32</B></td></tr>
-<tr><td><B>WIND SPD</B></td><td><B>25 KTS</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 12 - 2024111212Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>13.5 N, 108.2 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>36</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>20 KTS</B></td></tr>
 <tr><td><B>MOVEMENT</B></td><td><B></B></td></tr>
 </table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
@@ -300,11 +285,11 @@ Hong_Kong                 207   347    0               </pre>
                           </IconStyle>
                      </Style>
                      <Point>
-                                <coordinates>110.6,15.6,0</coordinates>
+                                <coordinates>108.2,13.5,0</coordinates>
                      </Point>
              </Placemark>
              <Placemark>
-                        <name>12/00Z - 20 knots</name>
+                        <name>13/00Z - 15 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
                     <description><![CDATA[<html>
 <head>
@@ -312,11 +297,11 @@ Hong_Kong                 207   347    0               </pre>
 </head>
 <table width="400" bgcolor="white" border="1">
 <tr><td><B>NAME</B></td><td><B>YINXING</B></td></tr>
-<tr><td><B>TIME</B></td><td><B>TAU 24 - 2024111200Z</B></td></tr>
-<tr><td><B>POSIT</B></td><td><B>14.3 N, 109.7 E</B></td></tr>
-<tr><td><B>WRNG NMBR</B></td><td><B>32</B></td></tr>
-<tr><td><B>WIND SPD</B></td><td><B>20 KTS</B></td></tr>
-<tr><td><B>MOVEMENT</B></td><td><B>215 DEG AT 08 KTS</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 24 - 2024111300Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>13.0 N, 106.0 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>36</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>15 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>255 DEG AT 11 KTS</B></td></tr>
 </table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
@@ -330,7 +315,7 @@ Hong_Kong                 207   347    0               </pre>
                           </IconStyle>
                      </Style>
                      <Point>
-                                <coordinates>109.7,14.3,0</coordinates>
+                                <coordinates>106.0,13.0,0</coordinates>
                      </Point>
              </Placemark>
                   <Placemark>
@@ -339,7 +324,7 @@ Hong_Kong                 207   347    0               </pre>
                       <LineString>
                               <tessellate>1</tessellate>
                               <coordinates>
-111.5,17.1,0 110.6,15.6,0 109.7,14.3,0                               </coordinates>
+109.5,14.3,0 108.2,13.5,0 106.0,13.0,0                               </coordinates>
                       </LineString>
                   </Placemark>
     <Placemark>
@@ -350,7 +335,7 @@ Hong_Kong                 207   347    0               </pre>
                 <outerBoundaryIs>
                        <LinearRing>
                                <coordinates>
-108.9300,14.1900,0 109.0472,14.6954,0 109.1651,15.1975,0 109.2831,15.6892,0 109.3993,16.1583,0 109.5104,16.5896,0 109.6132,16.9688,0 109.7057,17.2872,0 109.7877,17.5437,0 109.8607,17.7442,0 109.9274,17.8995,0 109.9912,18.0214,0 110.0547,18.1209,0 110.1203,18.2059,0 110.1896,18.2821,0 110.2638,18.3523,0 110.3433,18.4182,0 110.4283,18.4802,0 110.5186,18.5383,0 110.6136,18.5920,0 110.7122,18.6409,0 110.8137,18.6843,0 110.9171,18.7217,0 111.0221,18.7528,0 111.1288,18.7773,0 111.2375,18.7951,0 111.3485,18.8061,0 111.4620,18.8104,0 111.5775,18.8079,0 111.6944,18.7986,0 111.8115,18.7824,0 111.9276,18.7593,0 112.0418,18.7295,0 112.1529,18.6935,0 112.2596,18.6522,0 112.3607,18.6069,0 112.4548,18.5590,0 112.5408,18.5097,0 112.6181,18.4602,0 112.6870,18.4111,0 112.7483,18.3624,0 112.8033,18.3135,0 112.8535,18.2638,0 112.9004,18.2123,0 112.9449,18.1586,0 112.9875,18.1022,0 113.0284,18.0431,0 113.0674,17.9813,0 113.1042,17.9169,0 113.1385,17.8498,0 113.1701,17.7795,0 113.1986,17.7054,0 113.2240,17.6267,0 113.2458,17.5422,0 113.2636,17.4513,0 113.2770,17.3537,0 113.2855,17.2498,0 113.2886,17.1412,0 113.2863,17.0301,0 113.2785,16.9194,0 113.2656,16.8119,0 113.2481,16.7100,0 113.2268,16.6154,0 113.2020,16.5287,0 113.1740,16.4493,0 113.1424,16.3756,0 113.1058,16.3052,0 113.0613,16.2342,0 113.0041,16.1575,0 112.9269,16.0686,0 112.8205,15.9592,0 112.6750,15.8211,0 112.4823,15.6477,0 112.2394,15.4367,0 111.9509,15.1921,0 111.6301,14.9251,0 111.2970,14.6524,0 110.9738,14.3927,0 110.6804,14.1628,0 110.4296,13.9736,0 110.2254,13.8288,0 110.0645,13.7259,0 109.9384,13.6581,0 109.8374,13.6170,0 109.7531,13.5949,0 109.6792,13.5857,0 109.6122,13.5854,0 109.5502,13.5915,0 109.4921,13.6028,0 109.4373,13.6188,0 109.3853,13.6393,0 109.3353,13.6642,0 109.2871,13.6935,0 109.2407,13.7269,0 109.1962,13.7641,0 109.1540,13.8046,0 109.1147,13.8481,0 109.0786,13.8938,0 109.0458,13.9413,0 109.0161,13.9900,0 108.9891,14.0396,0 108.9640,14.0897,0 108.9300,14.1900,0                                </coordinates>
+109.5600,14.5400,0 109.5739,14.5356,0 109.5874,14.5311,0 109.6002,14.5265,0 109.6121,14.5218,0 109.6230,14.5170,0 109.6328,14.5120,0 109.6418,14.5067,0 109.6500,14.5013,0 109.6578,14.4956,0 109.6653,14.4895,0 109.6725,14.4832,0 109.6795,14.4766,0 109.6863,14.4698,0 109.6928,14.4629,0 109.6989,14.4560,0 109.7046,14.4492,0 109.7098,14.4424,0 109.7147,14.4355,0 109.7192,14.4287,0 109.7235,14.4216,0 109.7275,14.4144,0 109.7314,14.4070,0 109.7350,14.3993,0 109.7384,14.3914,0 109.7415,14.3833,0 109.7443,14.3749,0 109.7469,14.3663,0 109.7493,14.3575,0 109.7514,14.3484,0 109.7532,14.3391,0 109.7548,14.3296,0 109.7560,14.3200,0 109.7569,14.3104,0 109.7574,14.3009,0 109.7574,14.2916,0 109.7569,14.2825,0 109.7560,14.2736,0 109.7548,14.2650,0 109.7532,14.2565,0 109.7514,14.2482,0 109.7493,14.2400,0 109.7469,14.2318,0 109.7442,14.2236,0 109.7413,14.2154,0 109.7380,14.2071,0 109.7344,14.1988,0 109.7304,14.1905,0 109.7260,14.1824,0 109.7214,14.1744,0 109.7164,14.1667,0 109.7111,14.1591,0 109.7054,14.1517,0 109.6993,14.1444,0 109.6928,14.1371,0 109.6854,14.1295,0 109.6768,14.1212,0 109.6657,14.1113,0 109.6501,14.0983,0 109.6269,14.0795,0 109.5919,14.0518,0 109.5405,14.0116,0 109.4690,13.9558,0 109.3757,13.8833,0 109.2627,13.7954,0 109.1357,13.6967,0 109.0036,13.5941,0 108.8767,13.4954,0 108.7639,13.4076,0 108.6712,13.3353,0 108.6004,13.2800,0 108.5502,13.2407,0 108.5166,13.2142,0 108.4949,13.1969,0 108.4806,13.1856,0 108.4705,13.1775,0 108.4621,13.1711,0 108.4542,13.1654,0 108.4460,13.1598,0 108.4373,13.1542,0 108.4277,13.1486,0 108.4169,13.1427,0 108.4037,13.1361,0 108.3861,13.1280,0 108.3604,13.1171,0 108.3210,13.1011,0 108.2608,13.0773,0 108.1722,13.0427,0 108.0488,12.9948,0 107.8882,12.9326,0 107.6941,12.8575,0 107.4765,12.7733,0 107.2506,12.6858,0 107.0337,12.6017,0 106.8408,12.5267,0 106.6817,12.4647,0 106.5598,12.4168,0 106.4723,12.3821,0 106.4125,12.3581,0 106.3728,12.3418,0 106.3458,12.3305,0 106.3259,12.3221,0 106.3095,12.3152,0 106.2943,12.3092,0 106.2793,12.3036,0 106.2637,12.2982,0 106.2471,12.2929,0 106.2290,12.2879,0 106.2089,12.2830,0 106.1861,12.2783,0 106.1601,12.2740,0 106.1302,12.2702,0 106.0965,12.2671,0 106.0594,12.2649,0 106.0201,12.2637,0 105.9799,12.2637,0 105.9406,12.2649,0 105.9035,12.2671,0 105.8698,12.2702,0 105.8400,12.2740,0 105.8139,12.2783,0 105.7912,12.2829,0 105.7713,12.2877,0 105.7535,12.2926,0 105.7373,12.2975,0 105.7224,12.3025,0 105.7086,12.3076,0 105.6956,12.3126,0 105.6833,12.3177,0 105.6716,12.3229,0 105.6602,12.3283,0 105.6491,12.3338,0 105.6380,12.3395,0 105.6268,12.3455,0 105.6156,12.3517,0 105.6044,12.3583,0 105.5933,12.3651,0 105.5823,12.3722,0 105.5715,12.3795,0 105.5608,12.3870,0 105.5503,12.3946,0 105.5399,12.4024,0 105.5295,12.4103,0 105.5193,12.4184,0 105.5090,12.4266,0 105.4989,12.4350,0 105.4889,12.4436,0 105.4789,12.4525,0 105.4691,12.4616,0 105.4594,12.4710,0 105.4497,12.4806,0 105.4402,12.4903,0 105.4307,12.5001,0 105.4215,12.5101,0 105.4124,12.5200,0 105.4037,12.5299,0 105.3952,12.5399,0 105.3869,12.5497,0 105.3790,12.5594,0 105.3714,12.5690,0 105.3643,12.5784,0 105.3575,12.5875,0 105.3512,12.5964,0 105.3455,12.6050,0 105.3401,12.6134,0 105.3351,12.6217,0 105.3304,12.6299,0 105.3259,12.6381,0 105.3215,12.6463,0 105.3172,12.6546,0 105.3129,12.6630,0 105.3086,12.6717,0 105.3043,12.6807,0 105.3000,12.6899,0 105.2957,12.6994,0 105.2915,12.7092,0 105.2873,12.7192,0 105.2831,12.7294,0 105.2790,12.7398,0 105.2749,12.7502,0 105.2711,12.7609,0 105.2674,12.7717,0 105.2638,12.7829,0 105.2603,12.7944,0 105.2570,12.8063,0 105.2539,12.8185,0 105.2508,12.8310,0 105.2480,12.8438,0 105.2453,12.8567,0 105.2429,12.8697,0 105.2406,12.8826,0 105.2386,12.8956,0 105.2367,12.9085,0 105.2350,12.9215,0 105.2337,12.9344,0 105.2325,12.9474,0 105.2317,12.9604,0 105.2310,12.9735,0 105.2307,12.9865,0 105.2306,12.9996,0 105.2307,13.0126,0 105.2310,13.0256,0 105.2317,13.0385,0 105.2325,13.0515,0 105.2337,13.0644,0 105.2350,13.0774,0 105.2367,13.0904,0 105.2386,13.1035,0 105.2406,13.1165,0 105.2429,13.1295,0 105.2454,13.1425,0 105.2481,13.1554,0 105.2511,13.1682,0 105.2542,13.1809,0 105.2576,13.1936,0 105.2613,13.2062,0 105.2652,13.2187,0 105.2693,13.2312,0 105.2737,13.2437,0 105.2783,13.2561,0 105.2830,13.2684,0 105.2879,13.2807,0 105.2929,13.2927,0 105.2980,13.3045,0 105.3032,13.3161,0 105.3085,13.3273,0 105.3139,13.3383,0 105.3194,13.3490,0 105.3249,13.3594,0 105.3306,13.3697,0 105.3365,13.3799,0 105.3425,13.3899,0 105.3489,13.4000,0 105.3556,13.4100,0 105.3626,13.4200,0 105.3699,13.4300,0 105.3775,13.4399,0 105.3854,13.4499,0 105.3935,13.4597,0 105.4018,13.4694,0 105.4102,13.4790,0 105.4185,13.4884,0 105.4267,13.4976,0 105.4346,13.5065,0 105.4424,13.5153,0 105.4501,13.5239,0 105.4579,13.5323,0 105.4660,13.5407,0 105.4745,13.5491,0 105.4835,13.5573,0 105.4931,13.5655,0 105.5032,13.5737,0 105.5138,13.5818,0 105.5247,13.5897,0 105.5358,13.5976,0 105.5470,13.6054,0 105.5582,13.6131,0 105.5694,13.6206,0 105.5807,13.6279,0 105.5919,13.6350,0 105.6034,13.6419,0 105.6149,13.6486,0 105.6266,13.6551,0 105.6386,13.6615,0 105.6507,13.6676,0 105.6632,13.6737,0 105.6759,13.6796,0 105.6890,13.6853,0 105.7026,13.6909,0 105.7168,13.6964,0 105.7317,13.7017,0 105.7478,13.7069,0 105.7659,13.7121,0 105.7878,13.7175,0 105.8170,13.7237,0 105.8592,13.7316,0 105.9234,13.7429,0 106.0210,13.7600,0 106.1650,13.7857,0 106.3669,13.8232,0 106.6325,13.8746,0 106.9585,13.9406,0 107.3305,14.0192,0 107.7246,14.1062,0 108.1119,14.1954,0 108.4649,14.2799,0 108.7638,14.3542,0 108.9995,14.4146,0 109.1739,14.4603,0 109.2967,14.4923,0 109.3813,14.5132,0 109.4409,14.5260,0 109.4863,14.5333,0 109.5245,14.5374,0 109.5600,14.5400,0                                </coordinates>
                        </LinearRing>
                 </outerBoundaryIs>
         </Polygon>
@@ -359,13 +344,349 @@ Hong_Kong                 207   347    0               </pre>
     <Folder>
        <name>Previous Best Track Posits</name>
        <visibility>0</visibility>
+         <Placemark>
+              <name>24110112Z</name>
+              <description>Intensity: 15 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>147.2,5.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110118Z</name>
+              <description>Intensity: 15 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>145.6,5.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110200Z</name>
+              <description>Intensity: 15 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>144.0,5.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110206Z</name>
+              <description>Intensity: 15 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>142.2,6.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110212Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>141.3,6.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110218Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>140.3,7.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110300Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>139.3,8.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110306Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>138.0,9.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110312Z</name>
+              <description>Intensity: 35 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>136.3,10.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110318Z</name>
+              <description>Intensity: 40 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>134.6,11.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110400Z</name>
+              <description>Intensity: 50 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>133.1,12.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110406Z</name>
+              <description>Intensity: 55 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>131.5,13.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110412Z</name>
+              <description>Intensity: 65 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>130.1,14.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110418Z</name>
+              <description>Intensity: 70 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>128.8,15.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110500Z</name>
+              <description>Intensity: 75 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>127.4,16.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110506Z</name>
+              <description>Intensity: 80 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>126.5,16.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110512Z</name>
+              <description>Intensity: 85 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>125.7,17.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110518Z</name>
+              <description>Intensity: 95 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>125.1,17.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110600Z</name>
+              <description>Intensity: 95 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>124.7,18.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110606Z</name>
+              <description>Intensity: 100 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>124.4,18.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110612Z</name>
+              <description>Intensity: 110 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>124.0,18.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110618Z</name>
+              <description>Intensity: 115 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>123.6,18.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110700Z</name>
+              <description>Intensity: 120 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>123.1,18.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110706Z</name>
+              <description>Intensity: 130 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>122.3,18.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110712Z</name>
+              <description>Intensity: 120 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>121.5,18.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110718Z</name>
+              <description>Intensity: 85 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>120.3,18.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110800Z</name>
+              <description>Intensity: 90 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>119.3,18.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110806Z</name>
+              <description>Intensity: 90 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>118.1,18.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110812Z</name>
+              <description>Intensity: 90 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>116.9,18.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110818Z</name>
+              <description>Intensity: 100 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>115.8,18.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110900Z</name>
+              <description>Intensity: 105 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>115.0,18.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110906Z</name>
+              <description>Intensity: 110 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>114.1,19.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110912Z</name>
+              <description>Intensity: 110 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>113.6,19.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24110918Z</name>
+              <description>Intensity: 105 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>113.3,19.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111000Z</name>
+              <description>Intensity: 100 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>113.2,19.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111006Z</name>
+              <description>Intensity: 90 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>113.0,18.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111012Z</name>
+              <description>Intensity: 75 knots</description>
+              <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>112.8,18.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111018Z</name>
+              <description>Intensity: 40 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>111.9,17.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111100Z</name>
+              <description>Intensity: 40 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>111.3,17.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111106Z</name>
+              <description>Intensity: 40 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>110.8,16.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111112Z</name>
+              <description>Intensity: 35 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>110.4,15.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24111118Z</name>
+              <description>Intensity: 35 knots</description>
+              <styleUrl>#BestTrackStyle5</styleUrl>
+              <Point>
+              <coordinates>109.9,14.9,0</coordinates>
+              </Point>
+          </Placemark>
           <Placemark>
                 <name>Best Track</name>
                 <styleUrl>#BestTrack</styleUrl>
                 <LineString>
                         <tessellate>1</tessellate>
                         <coordinates>
-  111.5,17.1,0 
+  147.2,5.5,0  145.6,5.7,0  144.0,5.8,0  142.2,6.2,0  141.3,6.6,0  140.3,7.3,0  139.3,8.4,0  138.0,9.8,0  136.3,10.5,0  134.6,11.1,0  133.1,12.2,0  131.5,13.1,0  130.1,14.3,0  128.8,15.3,0  127.4,16.2,0  126.5,16.8,0  125.7,17.3,0  125.1,17.8,0  124.7,18.0,0  124.4,18.1,0  124.0,18.1,0  123.6,18.3,0  123.1,18.6,0  122.3,18.5,0  121.5,18.6,0  120.3,18.2,0  119.3,18.2,0  118.1,18.4,0  116.9,18.4,0  115.8,18.6,0  115.0,18.8,0  114.1,19.0,0  113.6,19.1,0  113.3,19.1,0  113.2,19.0,0  113.0,18.9,0  112.8,18.7,0  111.9,17.6,0  111.3,17.0,0  110.8,16.3,0  110.4,15.7,0  109.9,14.9,0  109.5,14.3,0 
                         </coordinates>
                 </LineString>
             </Placemark>
