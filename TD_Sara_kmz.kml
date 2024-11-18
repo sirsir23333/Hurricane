@@ -7,7 +7,7 @@
 		<![CDATA[<TABLE>
 		<TR><TD><B>Title:</B> Tropical Cyclone Best Track for AL192024</TD></TR>
 		<TR><TD><B>Description:</B> The best track is a subjectively-smoothed representation of the tropical cyclone's location and intensity at 6-h interval over its lifetime.  These best track positions and intensity (maximum 1-minute sustained surface wind speed and minimum sea-level pressure) are based on a post-storm assessment of all available data and may differ from values contained in real-time storm advisories.  In general, they will not reflect the erratic motion implied by connecting the individual center fix positions.  The best track is a living database which servers as the official U.S. National Weather Service historical record of the tropical cyclone. 
-		<TR><TD><B>Date Created:</B> 14-11-2024</TD></TR>
+		<TR><TD><B>Date Created:</B> 17-11-2024</TD></TR>
 		<TR><TD><B>Created:</B> National Hurricane Center </TD></TR>
 		<TR><TD><B>Disclaimer:</B> These data are intended for geographic display and analysis at the national level, and for large regional areas. No responsibilty is assumed by the National Oceanic and Atmospheric Administration or the National Hurricane Center in the use of these data.  No wawrranty, expressed or implied, is made by the National Hurricane Center regarding the utility of the data on any other system, nor shall the act of distrubtion constitute any such warranty. </TD></TR>
 		<TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
@@ -577,17 +577,17 @@
 	      <Snippet maxLines="0">empty</Snippet>
 	      <description>
 	   	  <![CDATA[<table>
-	       		<tr><td>DB NINETEEN (AL192024)</td></tr>
+	       		<tr><td>TD NINETEEN (AL192024)</td></tr>
 	       		<tr><td><hr></td></tr>
 	       		<tr><td>0600 UTC NOV 14</td></tr>
 	       		<tr><td>Storm Location:</td></tr>
 	       		<tr><td> <B>15.9 N, -81.2 W</B> </td></tr>
 	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>1004 mb; 29.64 in Hg</td></tr>
+	       		<tr><td>1003 mb; 29.61 in Hg</td></tr>
 	       		<tr><td>Maxium Intensity:</td></tr>
 	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]>
 	       </description>
-	       <styleUrl>#ex</styleUrl>
+	       <styleUrl>#td</styleUrl>
 	       <Point>
 	   	   <coordinates>-81.2,15.9,0</coordinates>
 	       </Point>
@@ -596,11 +596,11 @@
 	       <stormName>NINETEEN</stormName>
 	       <stormNum>19</stormNum>
 	       <basin>AL</basin>
-	       <stormType>DB</stormType>
+	       <stormType>TD</stormType>
 	       <intensity>30</intensity>
 	       <intensityMPH>35</intensityMPH>
 	       <intensityKPH>56</intensityKPH>
-	       <minSeaLevelPres>1004</minSeaLevelPres>
+	       <minSeaLevelPres>1003</minSeaLevelPres>
 	       <atcfdtg>2024111406</atcfdtg>
 	       <dtg>0600 UTC NOV 14</dtg>
 	   </Placemark>
@@ -616,7 +616,7 @@
 	       		<tr><td>Storm Location:</td></tr>
 	       		<tr><td> <B>15.8 N, -82.2 W</B> </td></tr>
 	       		<tr><td>Min Sea Level Pressure:</td></tr>
-	       		<tr><td>1004 mb; 29.64 in Hg</td></tr>
+	       		<tr><td>1002 mb; 29.58 in Hg</td></tr>
 	       		<tr><td>Maxium Intensity:</td></tr>
 	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]>
 	       </description>
@@ -633,7 +633,7 @@
 	       <intensity>30</intensity>
 	       <intensityMPH>35</intensityMPH>
 	       <intensityKPH>56</intensityKPH>
-	       <minSeaLevelPres>1004</minSeaLevelPres>
+	       <minSeaLevelPres>1002</minSeaLevelPres>
 	       <atcfdtg>2024111412</atcfdtg>
 	       <dtg>1200 UTC NOV 14</dtg>
 	   </Placemark>
@@ -669,6 +669,402 @@
 	       <minSeaLevelPres>998</minSeaLevelPres>
 	       <atcfdtg>2024111418</atcfdtg>
 	       <dtg>1800 UTC NOV 14</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC NOV 15</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC NOV 15</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>15.8 N, -84.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>998 mb; 29.47 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-84.0,15.8,0</coordinates>
+	       </Point>
+	       <lat>15.8</lat>
+	       <lon>-84.0</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>35</intensity>
+	       <intensityMPH>40</intensityMPH>
+	       <intensityKPH>65</intensityKPH>
+	       <minSeaLevelPres>998</minSeaLevelPres>
+	       <atcfdtg>2024111500</atcfdtg>
+	       <dtg>0000 UTC NOV 15</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC NOV 15</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC NOV 15</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.0 N, -85.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>999 mb; 29.50 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-85.0,16.0,0</coordinates>
+	       </Point>
+	       <lat>16.0</lat>
+	       <lon>-85.0</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>40</intensity>
+	       <intensityMPH>46</intensityMPH>
+	       <intensityKPH>74</intensityKPH>
+	       <minSeaLevelPres>999</minSeaLevelPres>
+	       <atcfdtg>2024111506</atcfdtg>
+	       <dtg>0600 UTC NOV 15</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC NOV 15</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC NOV 15</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.1 N, -85.7 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>997 mb; 29.44 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-85.7,16.1,0</coordinates>
+	       </Point>
+	       <lat>16.1</lat>
+	       <lon>-85.7</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>45</intensity>
+	       <intensityMPH>52</intensityMPH>
+	       <intensityKPH>83</intensityKPH>
+	       <minSeaLevelPres>997</minSeaLevelPres>
+	       <atcfdtg>2024111512</atcfdtg>
+	       <dtg>1200 UTC NOV 15</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC NOV 15</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC NOV 15</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.1 N, -86.1 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>997 mb; 29.44 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-86.1,16.1,0</coordinates>
+	       </Point>
+	       <lat>16.1</lat>
+	       <lon>-86.1</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>45</intensity>
+	       <intensityMPH>52</intensityMPH>
+	       <intensityKPH>83</intensityKPH>
+	       <minSeaLevelPres>997</minSeaLevelPres>
+	       <atcfdtg>2024111518</atcfdtg>
+	       <dtg>1800 UTC NOV 15</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC NOV 16</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC NOV 16</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.2 N, -86.3 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>997 mb; 29.44 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>45 knots;  52 mph;  83 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-86.3,16.2,0</coordinates>
+	       </Point>
+	       <lat>16.2</lat>
+	       <lon>-86.3</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>45</intensity>
+	       <intensityMPH>52</intensityMPH>
+	       <intensityKPH>83</intensityKPH>
+	       <minSeaLevelPres>997</minSeaLevelPres>
+	       <atcfdtg>2024111600</atcfdtg>
+	       <dtg>0000 UTC NOV 16</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC NOV 16</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC NOV 16</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.2 N, -86.3 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>999 mb; 29.50 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-86.3,16.2,0</coordinates>
+	       </Point>
+	       <lat>16.2</lat>
+	       <lon>-86.3</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>40</intensity>
+	       <intensityMPH>46</intensityMPH>
+	       <intensityKPH>74</intensityKPH>
+	       <minSeaLevelPres>999</minSeaLevelPres>
+	       <atcfdtg>2024111606</atcfdtg>
+	       <dtg>0600 UTC NOV 16</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC NOV 16</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC NOV 16</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.2 N, -86.3 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>999 mb; 29.50 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-86.3,16.2,0</coordinates>
+	       </Point>
+	       <lat>16.2</lat>
+	       <lon>-86.3</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>40</intensity>
+	       <intensityMPH>46</intensityMPH>
+	       <intensityKPH>74</intensityKPH>
+	       <minSeaLevelPres>999</minSeaLevelPres>
+	       <atcfdtg>2024111612</atcfdtg>
+	       <dtg>1200 UTC NOV 16</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC NOV 16</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC NOV 16</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.3 N, -86.8 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>40 knots;  46 mph;  74 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-86.8,16.3,0</coordinates>
+	       </Point>
+	       <lat>16.3</lat>
+	       <lon>-86.8</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>40</intensity>
+	       <intensityMPH>46</intensityMPH>
+	       <intensityKPH>74</intensityKPH>
+	       <minSeaLevelPres>1000</minSeaLevelPres>
+	       <atcfdtg>2024111618</atcfdtg>
+	       <dtg>1800 UTC NOV 16</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0000 UTC NOV 17</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0000 UTC NOV 17</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.4 N, -87.1 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1000 mb; 29.53 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-87.1,16.4,0</coordinates>
+	       </Point>
+	       <lat>16.4</lat>
+	       <lon>-87.1</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>35</intensity>
+	       <intensityMPH>40</intensityMPH>
+	       <intensityKPH>65</intensityKPH>
+	       <minSeaLevelPres>1000</minSeaLevelPres>
+	       <atcfdtg>2024111700</atcfdtg>
+	       <dtg>0000 UTC NOV 17</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>0600 UTC NOV 17</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>0600 UTC NOV 17</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.6 N, -87.5 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1002 mb; 29.58 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-87.5,16.6,0</coordinates>
+	       </Point>
+	       <lat>16.6</lat>
+	       <lon>-87.5</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>35</intensity>
+	       <intensityMPH>40</intensityMPH>
+	       <intensityKPH>65</intensityKPH>
+	       <minSeaLevelPres>1002</minSeaLevelPres>
+	       <atcfdtg>2024111706</atcfdtg>
+	       <dtg>0600 UTC NOV 17</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1200 UTC NOV 17</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TS SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1200 UTC NOV 17</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>16.8 N, -87.9 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1001 mb; 29.55 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>35 knots;  40 mph;  65 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#ts</styleUrl>
+	       <Point>
+	   	   <coordinates>-87.9,16.8,0</coordinates>
+	       </Point>
+	       <lat>16.8</lat>
+	       <lon>-87.9</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TS</stormType>
+	       <intensity>35</intensity>
+	       <intensityMPH>40</intensityMPH>
+	       <intensityKPH>65</intensityKPH>
+	       <minSeaLevelPres>1001</minSeaLevelPres>
+	       <atcfdtg>2024111712</atcfdtg>
+	       <dtg>1200 UTC NOV 17</dtg>
+	   </Placemark>
+
+	   <Placemark>
+	      <name>1800 UTC NOV 17</name>
+	      <Snippet maxLines="0">empty</Snippet>
+	      <description>
+	   	  <![CDATA[<table>
+	       		<tr><td>TD SARA (AL192024)</td></tr>
+	       		<tr><td><hr></td></tr>
+	       		<tr><td>1800 UTC NOV 17</td></tr>
+	       		<tr><td>Storm Location:</td></tr>
+	       		<tr><td> <B>17.4 N, -89.0 W</B> </td></tr>
+	       		<tr><td>Min Sea Level Pressure:</td></tr>
+	       		<tr><td>1003 mb; 29.61 in Hg</td></tr>
+	       		<tr><td>Maxium Intensity:</td></tr>
+	       		<tr><td>30 knots;  35 mph;  56 kph</td></tr></table>]]>
+	       </description>
+	       <styleUrl>#td</styleUrl>
+	       <Point>
+	   	   <coordinates>-89.0,17.4,0</coordinates>
+	       </Point>
+	       <lat>17.4</lat>
+	       <lon>-89.0</lon>
+	       <stormName>SARA</stormName>
+	       <stormNum>19</stormNum>
+	       <basin>AL</basin>
+	       <stormType>TD</stormType>
+	       <intensity>30</intensity>
+	       <intensityMPH>35</intensityMPH>
+	       <intensityKPH>56</intensityKPH>
+	       <minSeaLevelPres>1003</minSeaLevelPres>
+	       <atcfdtg>2024111718</atcfdtg>
+	       <dtg>1800 UTC NOV 17</dtg>
 	   </Placemark>
 
         </Folder>
