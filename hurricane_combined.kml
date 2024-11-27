@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document><name>WTIO21 PGTW 252000 COR</name>
+  <Document><name>WTIO21 PGTW 262000</name>
         <description>TROPICAL CYCLONE FORMATION ALERT</description>
 	<StyleMap id="msn_ylw-pushpin_0">
 		<Pair>
@@ -128,17 +128,17 @@
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
-83.4,5.6,0 83.3,9.1,0 84.649,9.135,0 84.738,5.636,0 82.061,5.560,0 81.951,9.059,0 83.3,9.1,0
+82.4,8.2,0 82.6,11.8,0 83.958,11.723,0 83.743,8.125,0 81.055,8.270,0 81.240,11.869,0 82.6,11.8,0
 			</coordinates>
 		</LineString>
 	</Placemark>
 	<Placemark>
            <name>TROPICAL CYCLONE FORMATION ALERT -
-VALID TIME:25/2000Z</name>
-           <description>Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING NORTHWARD AT 07 KNOTS.</description>
+VALID TIME:26/2000Z</name>
+           <description>Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING NORTH-NORTHWESTWARD AT 09 KNOTS.</description>
            <styleUrl>#BestTrackStyle0</styleUrl>
               <Point>
-              <coordinates>83.4,5.7,0</coordinates>
+              <coordinates>82.4,8.3,0</coordinates>
               </Point>
           </Placemark>
     <Folder>
@@ -280,13 +280,416 @@ VALID TIME:25/2000Z</name>
               <coordinates>83.4,5.0,0</coordinates>
               </Point>
           </Placemark>
+         <Placemark>
+              <name>24112518Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>83.2,5.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112600Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>82.8,6.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112606Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>83.0,7.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112612Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>82.7,7.5,0</coordinates>
+              </Point>
+          </Placemark>
           <Placemark>
                 <name>Best Track</name>
                 <styleUrl>#BestTrack</styleUrl>
                 <LineString>
                         <tessellate>1</tessellate>
                         <coordinates>
-  94.4,3.2,0  94.3,3.8,0  94.0,4.3,0  93.0,4.1,0  92.6,4.2,0  92.3,4.3,0  91.5,4.4,0  90.2,4.8,0  89.2,4.4,0  88.2,3.8,0  87.1,3.7,0  86.5,3.8,0  85.7,3.9,0  84.7,4.1,0  83.9,4.3,0  83.3,4.5,0  83.4,5.0,0  83.4,5.7,0 
+  94.4,3.2,0  94.3,3.8,0  94.0,4.3,0  93.0,4.1,0  92.6,4.2,0  92.3,4.3,0  91.5,4.4,0  90.2,4.8,0  89.2,4.4,0  88.2,3.8,0  87.1,3.7,0  86.5,3.8,0  85.7,3.9,0  84.7,4.1,0  83.9,4.3,0  83.3,4.5,0  83.4,5.0,0  83.2,5.7,0  82.8,6.0,0  83.0,7.0,0  82.7,7.5,0  82.4,8.3,0 
+                        </coordinates>
+                </LineString>
+            </Placemark>
+    </Folder>
+    <ScreenOverlay>
+       <name>JTWC Logo</name>
+           <Icon>images/JTWCtranslogo.png</Icon>
+        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction"/>
+        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+<name>WTXS21 PGTW 262030</name>
+        <description>TROPICAL CYCLONE FORMATION ALERT</description>
+	<StyleMap id="msn_ylw-pushpin_1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin_1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin_1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="TropicalBalloonStyle_1">
+		<LabelStyle>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
+&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+			<bgColor>ffd9d1d1</bgColor>
+		</BalloonStyle>
+		<LineStyle id="IDstormtrack_1">
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f7faaaa</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+        <StyleMap id="BestTrackStyle_1">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#BestTrackStyle0</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#BestTrackStyle0</styleUrl>
+                </Pair>
+        </StyleMap>
+        <Style id="BestTrackStyle0_1">
+                <IconStyle>
+                        <scale>0.8</scale>
+                        <heading>0</heading>
+                        <Icon>
+                                <href>images/TD.png</href>
+                        </Icon>
+                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+                <BalloonStyle>
+                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
+&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <bgColor>ffd9d1d1</bgColor>
+                </BalloonStyle>
+                <ListStyle>
+                </ListStyle>
+                <LineStyle>
+                        <color>ff7faaaa</color>
+                        <width>2</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7f7faaaa</color>
+                        <colorMode>random</colorMode>
+                </PolyStyle>
+        </Style>
+        <Style id="BestTrackStyle1_1">
+                <IconStyle>
+                        <scale>0.8</scale>
+                        <heading>0</heading>
+                        <Icon>
+                                <href>images/TDgray.png</href>
+                        </Icon>
+                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+                <BalloonStyle>
+                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
+&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <bgColor>ffd9d1d1</bgColor>
+                </BalloonStyle>
+                <ListStyle>
+                </ListStyle>
+                <LineStyle>
+                        <color>ff7faaaa</color>
+                        <width>2</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7f7faaaa</color>
+                        <colorMode>random</colorMode>
+                </PolyStyle>
+        </Style>
+	<Placemark>
+		<name>TCFA AREA</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+92.8,-10.6,0 91.7,-13.6,0 90.412,-13.144,0 91.524,-10.150,0 94.078,-11.044,0 92.991,-14.048,0 91.7,-13.6,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+           <name>TROPICAL CYCLONE FORMATION ALERT -
+VALID TIME:26/2030Z</name>
+           <description>Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING SOUTHWESTWARD AT 13 KNOTS.</description>
+           <styleUrl>#BestTrackStyle0</styleUrl>
+              <Point>
+              <coordinates>92.7,-10.7,0</coordinates>
+              </Point>
+          </Placemark>
+    <Folder>
+       <name>Previous Best Track Posits</name>
+       <visibility>0</visibility>
+         <Placemark>
+              <name>24112006Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>100.1,-6.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112012Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>99.3,-7.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112018Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>98.5,-8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112100Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>97.9,-8.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112106Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>97.3,-8.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112112Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>96.9,-8.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112118Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>96.6,-9.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112200Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>96.5,-9.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112206Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>97.1,-9.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112212Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>97.2,-10.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112218Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>97.0,-10.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112300Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>96.5,-9.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112306Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>95.9,-10,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112312Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.8,-9.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112318Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.4,-9.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112400Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>93.9,-8.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112406Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>93.6,-8.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112412Z</name>
+              <description>Intensity: 15 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>93.6,-8.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112418Z</name>
+              <description>Intensity: 15 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.1,-8.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112500Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.5,-8.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112506Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>95.0,-8.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112512Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>95.3,-9.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112518Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.9,-9.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112600Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.6,-9.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112606Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>94.1,-9.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24112612Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>93.5,-9.7,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+                <name>Best Track</name>
+                <styleUrl>#BestTrack</styleUrl>
+                <LineString>
+                        <tessellate>1</tessellate>
+                        <coordinates>
+  100.1,-6.6,0  99.3,-7.3,0  98.5,-8,0  97.9,-8.4,0  97.3,-8.6,0  96.9,-8.9,0  96.6,-9.1,0  96.5,-9.4,0  97.1,-9.9,0  97.2,-10.1,0  97.0,-10.2,0  96.5,-9.9,0  95.9,-10,0  94.8,-9.5,0  94.4,-9.2,0  93.9,-8.7,0  93.6,-8.5,0  93.6,-8.3,0  94.1,-8.4,0  94.5,-8.5,0  95.0,-8.8,0  95.3,-9.1,0  94.9,-9.3,0  94.6,-9.3,0  94.1,-9.3,0  93.5,-9.7,0  92.7,-10.7,0 
                         </coordinates>
                 </LineString>
             </Placemark>

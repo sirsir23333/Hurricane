@@ -11,38 +11,38 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        83.4,
-                        5.6,
+                        82.4,
+                        8.2,
                         0.0
                     ],
                     [
-                        83.3,
-                        9.1,
+                        82.6,
+                        11.8,
                         0.0
                     ],
                     [
-                        84.649,
-                        9.135,
+                        83.958,
+                        11.723,
                         0.0
                     ],
                     [
-                        84.738,
-                        5.636,
+                        83.743,
+                        8.125,
                         0.0
                     ],
                     [
-                        82.061,
-                        5.56,
+                        81.055,
+                        8.27,
                         0.0
                     ],
                     [
-                        81.951,
-                        9.059,
+                        81.24,
+                        11.869,
                         0.0
                     ],
                     [
-                        83.3,
-                        9.1,
+                        82.6,
+                        11.8,
                         0.0
                     ]
                 ]
@@ -51,15 +51,15 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "TROPICAL CYCLONE FORMATION ALERT -\nVALID TIME:25/2000Z",
-                "description": "Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING NORTHWARD AT 07 KNOTS.",
+                "name": "TROPICAL CYCLONE FORMATION ALERT -\nVALID TIME:26/2000Z",
+                "description": "Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING NORTH-NORTHWESTWARD AT 09 KNOTS.",
                 "styleUrl": "#BestTrackStyle0"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    83.4,
-                    5.7,
+                    82.4,
+                    8.3,
                     0.0
                 ]
             }
@@ -339,6 +339,70 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "24112518Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.2,
+                    5.7,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112600Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.8,
+                    6.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112606Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.0,
+                    7.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112612Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.7,
+                    7.5,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Best Track",
                 "styleUrl": "#BestTrack"
             },
@@ -431,8 +495,654 @@
                         0.0
                     ],
                     [
-                        83.4,
+                        83.2,
                         5.7,
+                        0.0
+                    ],
+                    [
+                        82.8,
+                        6.0,
+                        0.0
+                    ],
+                    [
+                        83.0,
+                        7.0,
+                        0.0
+                    ],
+                    [
+                        82.7,
+                        7.5,
+                        0.0
+                    ],
+                    [
+                        82.4,
+                        8.3,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "TCFA AREA",
+                "styleUrl": "#msn_ylw-pushpin"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        92.8,
+                        -10.6,
+                        0.0
+                    ],
+                    [
+                        91.7,
+                        -13.6,
+                        0.0
+                    ],
+                    [
+                        90.412,
+                        -13.144,
+                        0.0
+                    ],
+                    [
+                        91.524,
+                        -10.15,
+                        0.0
+                    ],
+                    [
+                        94.078,
+                        -11.044,
+                        0.0
+                    ],
+                    [
+                        92.991,
+                        -14.048,
+                        0.0
+                    ],
+                    [
+                        91.7,
+                        -13.6,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "TROPICAL CYCLONE FORMATION ALERT -\nVALID TIME:26/2030Z",
+                "description": "Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING SOUTHWESTWARD AT 13 KNOTS.",
+                "styleUrl": "#BestTrackStyle0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    92.7,
+                    -10.7,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112006Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.1,
+                    -6.6,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112012Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.3,
+                    -7.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112018Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.5,
+                    -8.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112100Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.9,
+                    -8.4,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112106Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.3,
+                    -8.6,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112112Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.9,
+                    -8.9,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112118Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.6,
+                    -9.1,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112200Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.5,
+                    -9.4,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112206Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.1,
+                    -9.9,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112212Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.2,
+                    -10.1,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112218Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.0,
+                    -10.2,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112300Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.5,
+                    -9.9,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112306Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    95.9,
+                    -10.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112312Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.8,
+                    -9.5,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112318Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.4,
+                    -9.2,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112400Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.9,
+                    -8.7,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112406Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.6,
+                    -8.5,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112412Z",
+                "description": "Intensity: 15 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.6,
+                    -8.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112418Z",
+                "description": "Intensity: 15 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.1,
+                    -8.4,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112500Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.5,
+                    -8.5,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112506Z",
+                "description": "Intensity: 25 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    95.0,
+                    -8.8,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112512Z",
+                "description": "Intensity: 25 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    95.3,
+                    -9.1,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112518Z",
+                "description": "Intensity: 25 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.9,
+                    -9.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112600Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.6,
+                    -9.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112606Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.1,
+                    -9.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24112612Z",
+                "description": "Intensity: 30 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.5,
+                    -9.7,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Best Track",
+                "styleUrl": "#BestTrack"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        100.1,
+                        -6.6,
+                        0.0
+                    ],
+                    [
+                        99.3,
+                        -7.3,
+                        0.0
+                    ],
+                    [
+                        98.5,
+                        -8.0,
+                        0.0
+                    ],
+                    [
+                        97.9,
+                        -8.4,
+                        0.0
+                    ],
+                    [
+                        97.3,
+                        -8.6,
+                        0.0
+                    ],
+                    [
+                        96.9,
+                        -8.9,
+                        0.0
+                    ],
+                    [
+                        96.6,
+                        -9.1,
+                        0.0
+                    ],
+                    [
+                        96.5,
+                        -9.4,
+                        0.0
+                    ],
+                    [
+                        97.1,
+                        -9.9,
+                        0.0
+                    ],
+                    [
+                        97.2,
+                        -10.1,
+                        0.0
+                    ],
+                    [
+                        97.0,
+                        -10.2,
+                        0.0
+                    ],
+                    [
+                        96.5,
+                        -9.9,
+                        0.0
+                    ],
+                    [
+                        95.9,
+                        -10.0,
+                        0.0
+                    ],
+                    [
+                        94.8,
+                        -9.5,
+                        0.0
+                    ],
+                    [
+                        94.4,
+                        -9.2,
+                        0.0
+                    ],
+                    [
+                        93.9,
+                        -8.7,
+                        0.0
+                    ],
+                    [
+                        93.6,
+                        -8.5,
+                        0.0
+                    ],
+                    [
+                        93.6,
+                        -8.3,
+                        0.0
+                    ],
+                    [
+                        94.1,
+                        -8.4,
+                        0.0
+                    ],
+                    [
+                        94.5,
+                        -8.5,
+                        0.0
+                    ],
+                    [
+                        95.0,
+                        -8.8,
+                        0.0
+                    ],
+                    [
+                        95.3,
+                        -9.1,
+                        0.0
+                    ],
+                    [
+                        94.9,
+                        -9.3,
+                        0.0
+                    ],
+                    [
+                        94.6,
+                        -9.3,
+                        0.0
+                    ],
+                    [
+                        94.1,
+                        -9.3,
+                        0.0
+                    ],
+                    [
+                        93.5,
+                        -9.7,
+                        0.0
+                    ],
+                    [
+                        92.7,
+                        -10.7,
                         0.0
                     ]
                 ]
