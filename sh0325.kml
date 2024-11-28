@@ -1,369 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document><name>WTIO21 PGTW 272000</name>
-        <description>TROPICAL CYCLONE FORMATION ALERT</description>
-	<StyleMap id="msn_ylw-pushpin_0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin_0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f00ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin_0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f00ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="TropicalBalloonStyle_0">
-		<LabelStyle>
-			<scale>1.2</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
-			<bgColor>ffd9d1d1</bgColor>
-		</BalloonStyle>
-		<LineStyle id="IDstormtrack_0">
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7f7faaaa</color>
-			<colorMode>random</colorMode>
-		</PolyStyle>
-	</Style>
-        <StyleMap id="BestTrackStyle_0">
-                <Pair>
-                        <key>normal</key>
-                        <styleUrl>#BestTrackStyle0</styleUrl>
-                </Pair>
-                <Pair>
-                        <key>highlight</key>
-                        <styleUrl>#BestTrackStyle0</styleUrl>
-                </Pair>
-        </StyleMap>
-        <Style id="BestTrackStyle0_0">
-                <IconStyle>
-                        <scale>0.8</scale>
-                        <heading>0</heading>
-                        <Icon>
-                                <href>images/TD.png</href>
-                        </Icon>
-                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-                </IconStyle>
-                <LabelStyle>
-                   <scale>0</scale>
-                </LabelStyle>
-                <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
-                        <bgColor>ffd9d1d1</bgColor>
-                </BalloonStyle>
-                <ListStyle>
-                </ListStyle>
-                <LineStyle>
-                        <color>ff7faaaa</color>
-                        <width>2</width>
-                </LineStyle>
-                <PolyStyle>
-                        <color>7f7faaaa</color>
-                        <colorMode>random</colorMode>
-                </PolyStyle>
-        </Style>
-        <Style id="BestTrackStyle1_0">
-                <IconStyle>
-                        <scale>0.8</scale>
-                        <heading>0</heading>
-                        <Icon>
-                                <href>images/TDgray.png</href>
-                        </Icon>
-                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-                </IconStyle>
-                <LabelStyle>
-                   <scale>0</scale>
-                </LabelStyle>
-                <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
-                        <bgColor>ffd9d1d1</bgColor>
-                </BalloonStyle>
-                <ListStyle>
-                </ListStyle>
-                <LineStyle>
-                        <color>ff7faaaa</color>
-                        <width>2</width>
-                </LineStyle>
-                <PolyStyle>
-                        <color>7f7faaaa</color>
-                        <colorMode>random</colorMode>
-                </PolyStyle>
-        </Style>
-	<Placemark>
-		<name>TCFA AREA</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
-		<LineString>
-			<tessellate>1</tessellate>
-			<coordinates>
-83.1,8.7,0 81.9,11.0,0 83.108,11.608,0 84.301,9.305,0 81.902,8.091,0 80.696,10.386,0 81.9,11.0,0
-			</coordinates>
-		</LineString>
-	</Placemark>
-	<Placemark>
-           <name>TROPICAL CYCLONE FORMATION ALERT -
-VALID TIME:27/2000Z</name>
-           <description>Intensity: 28 TO 33 KNOTS.  Motion: THE SYSTEM IS MOVING EAST-NORTHEASTWARD AT 06 KNOTS.</description>
-           <styleUrl>#BestTrackStyle0</styleUrl>
-              <Point>
-              <coordinates>83.0,8.8,0</coordinates>
-              </Point>
-          </Placemark>
-    <Folder>
-       <name>Previous Best Track Posits</name>
-       <visibility>0</visibility>
-         <Placemark>
-              <name>24112112Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>94.4,3.2,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112118Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>94.3,3.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112200Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>94.0,4.3,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112206Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>93.0,4.1,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112212Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>92.6,4.2,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112218Z</name>
-              <description>Intensity: 20 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>92.3,4.3,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112300Z</name>
-              <description>Intensity: 20 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>91.5,4.4,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112306Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>90.2,4.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112312Z</name>
-              <description>Intensity: 20 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>89.2,4.4,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112318Z</name>
-              <description>Intensity: 20 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>88.2,3.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112400Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>87.1,3.7,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112406Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>86.5,3.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112412Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>85.7,3.9,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112418Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>84.7,4.1,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112500Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>83.9,4.3,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112506Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>83.3,4.5,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112512Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>83.4,5.0,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112518Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>83.2,5.7,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112600Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>82.8,6.0,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112606Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>83.0,7.0,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112612Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>82.7,7.5,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112618Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>82.7,8.1,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112700Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>82.3,8.3,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112706Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>82.3,8.6,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24112712Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>82.4,8.6,0</coordinates>
-              </Point>
-          </Placemark>
-          <Placemark>
-                <name>Best Track</name>
-                <styleUrl>#BestTrack</styleUrl>
-                <LineString>
-                        <tessellate>1</tessellate>
-                        <coordinates>
-  94.4,3.2,0  94.3,3.8,0  94.0,4.3,0  93.0,4.1,0  92.6,4.2,0  92.3,4.3,0  91.5,4.4,0  90.2,4.8,0  89.2,4.4,0  88.2,3.8,0  87.1,3.7,0  86.5,3.8,0  85.7,3.9,0  84.7,4.1,0  83.9,4.3,0  83.3,4.5,0  83.4,5.0,0  83.2,5.7,0  82.8,6.0,0  83.0,7.0,0  82.7,7.5,0  82.7,8.1,0  82.3,8.3,0  82.3,8.6,0  82.4,8.6,0  83.0,8.8,0 
-                        </coordinates>
-                </LineString>
-            </Placemark>
-    </Folder>
-    <ScreenOverlay>
-       <name>JTWC Logo</name>
-           <Icon>images/JTWCtranslogo.png</Icon>
-        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction"/>
-        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction"/>
-    </ScreenOverlay>
-<name>JTWC WARNINGS</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JTWC WARNINGS</name>
 	<open>1</open>
         <LookAt>
          <longitude>090.3</longitude>
@@ -373,16 +11,16 @@ VALID TIME:27/2000Z</name>
          <tilt>0</tilt>
          <heading>0</heading>
         </LookAt>
-	<Style id="TropicalBalloonStyle_1">
+	<Style id="TropicalBalloonStyle">
 		<LabelStyle>
 			<scale>1.2</scale>
 		</LabelStyle>
 		<BalloonStyle>
-			<text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+			<text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
 			<bgColor>ffd9d1d1</bgColor>
 		</BalloonStyle>
-		<LineStyle id="IDstormtrack_1">
+		<LineStyle id="IDstormtrack">
 			<color>ffff00ff</color>
 			<width>2</width>
 		</LineStyle>
@@ -391,7 +29,7 @@ VALID TIME:27/2000Z</name>
 			<colorMode>random</colorMode>
 		</PolyStyle>
 	</Style>
-        <StyleMap id="BestTrackStyle_1">
+        <StyleMap id="BestTrackStyle">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#BestTrackStyle0</styleUrl>
@@ -401,7 +39,7 @@ VALID TIME:27/2000Z</name>
                         <styleUrl>#BestTrackStyle0</styleUrl>
                 </Pair>
         </StyleMap>
-        <StyleMap id="BestTrackStyle2_1">
+        <StyleMap id="BestTrackStyle2">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#BestTrackStyle1</styleUrl>
@@ -411,7 +49,7 @@ VALID TIME:27/2000Z</name>
                         <styleUrl>#BestTrackStyle1</styleUrl>
                 </Pair>
         </StyleMap>
-        <StyleMap id="BestTrackStyle3_1">
+        <StyleMap id="BestTrackStyle3">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#BestTrackStyle5</styleUrl>
@@ -421,7 +59,7 @@ VALID TIME:27/2000Z</name>
                         <styleUrl>#BestTrackStyle5</styleUrl>
                 </Pair>
         </StyleMap>
-        <Style id="BestTrackStyle0_1">
+        <Style id="BestTrackStyle0">
                 <IconStyle>
                         <scale>1.0</scale>
                         <heading>0</heading>
@@ -434,8 +72,8 @@ VALID TIME:27/2000Z</name>
                    <scale>0</scale>
                 </LabelStyle>
                 <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
                         <bgColor>ffd9d1d1</bgColor>
                 </BalloonStyle>
                 <ListStyle>
@@ -449,7 +87,7 @@ VALID TIME:27/2000Z</name>
                         <colorMode>random</colorMode>
                 </PolyStyle>
         </Style>
-        <Style id="BestTrackStyle1_1">
+        <Style id="BestTrackStyle1">
                 <IconStyle>
                         <scale>0.8</scale>
                         <heading>0</heading>
@@ -462,8 +100,8 @@ VALID TIME:27/2000Z</name>
                    <scale>0</scale>
                 </LabelStyle>
                 <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
                         <bgColor>ffd9d1d1</bgColor>
                 </BalloonStyle>
                 <ListStyle>
@@ -477,7 +115,7 @@ VALID TIME:27/2000Z</name>
                         <colorMode>random</colorMode>
                 </PolyStyle>
         </Style>
-        <Style id="BestTrackStyle5_1">
+        <Style id="BestTrackStyle5">
                 <IconStyle>
                         <scale>1.1</scale>
                         <heading>0</heading>
@@ -490,8 +128,8 @@ VALID TIME:27/2000Z</name>
                    <scale>0</scale>
                 </LabelStyle>
                 <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
                         <bgColor>ffd9d1d1</bgColor>
                 </BalloonStyle>
                 <ListStyle>
@@ -505,7 +143,7 @@ VALID TIME:27/2000Z</name>
                         <colorMode>random</colorMode>
                 </PolyStyle>
         </Style>
-	<Style id="WindRadii34_1">
+	<Style id="WindRadii34">
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -514,7 +152,7 @@ VALID TIME:27/2000Z</name>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="WindRadii64_1">
+	<Style id="WindRadii64">
 		<LineStyle>
 			<color>ff0000ff</color>
 			<width>2</width>
@@ -523,7 +161,7 @@ VALID TIME:27/2000Z</name>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="WindRadii50_1">
+	<Style id="WindRadii50">
 		<LineStyle>
 			<color>ff5f1faf</color>
 			<width>2</width>
@@ -532,7 +170,7 @@ VALID TIME:27/2000Z</name>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-        <Style id="sh_ylw-pushpin_1">
+        <Style id="sh_ylw-pushpin">
                 <IconStyle>
                         <scale>1.3</scale>
                         <Icon>
@@ -549,7 +187,7 @@ VALID TIME:27/2000Z</name>
                         <fill>0</fill>
                 </PolyStyle>
         </Style>
-        <Style id="sn_ylw-pushpin_1">
+        <Style id="sn_ylw-pushpin">
                 <IconStyle>
                         <scale>1.1</scale>
                         <Icon>
@@ -566,7 +204,7 @@ VALID TIME:27/2000Z</name>
                         <fill>0</fill>
                 </PolyStyle>
         </Style>
-        <StyleMap id="msn_ylw-pushpin_1">
+        <StyleMap id="msn_ylw-pushpin">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#sn_ylw-pushpin</styleUrl>
@@ -642,18 +280,18 @@ Diego_Garcia              114  1141    0
              <Placemark>
                         <name>28/12Z - 50 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;THREE&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 12 - 2024112812Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-15.9 S, 090.8 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;2&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;50 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>THREE</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 12 - 2024112812Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-15.9 S, 090.8 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>2</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>50 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B></B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -698,18 +336,18 @@ Diego_Garcia              114  1141    0
              <Placemark>
                         <name>29/00Z - 50 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;THREE&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 24 - 2024112900Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-16.8 S, 091.5 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;2&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;50 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;145 DEG AT 06 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>THREE</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 24 - 2024112900Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-16.8 S, 091.5 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>2</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>50 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>145 DEG AT 06 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -754,18 +392,18 @@ Diego_Garcia              114  1141    0
              <Placemark>
                         <name>29/12Z - 40 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;THREE&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 36 - 2024112912Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-17.2 S, 091.7 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;2&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;40 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;155 DEG AT 02 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>THREE</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 36 - 2024112912Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-17.2 S, 091.7 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>2</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>40 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>155 DEG AT 02 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -797,18 +435,18 @@ Diego_Garcia              114  1141    0
              <Placemark>
                         <name>30/00Z - 35 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;THREE&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 48 - 2024113000Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-17.4 S, 091.2 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;2&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;35 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;245 DEG AT 03 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>THREE</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 48 - 2024113000Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-17.4 S, 091.2 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>2</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>35 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>245 DEG AT 03 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -840,18 +478,18 @@ Diego_Garcia              114  1141    0
              <Placemark>
                         <name>01/00Z - 30 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;THREE&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 72 - 2024120100Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-17.1 S, 088.5 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;2&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;30 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;275 DEG AT 06 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>THREE</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 72 - 2024120100Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-17.1 S, 088.5 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>2</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>30 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>275 DEG AT 06 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -1155,10 +793,10 @@ Diego_Garcia              114  1141    0
     <ScreenOverlay>
        <name>JTWC Logo</name>
            <Icon>images/JTWCtranslogo.png</Icon>
-        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction"/>
-        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction"/>
+        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction" />
+        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction" />
+        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction" />
+        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction" />
     </ScreenOverlay>
     </Folder>
 </Document>
