@@ -252,7 +252,10 @@ def kml_to_geojson(output_geojson_path: str, output_combine_file: str) -> None:
     else:
         print(f"File {output_combine_file} does not exist.")
         if os.path.exists(output_geojson_path):
-            os.rename(output_geojson_path, os.path.join(base_directory, 'hurricane_combined_old.geojson'))
+            try:
+                os.rename(output_geojson_path, os.path.join(base_directory, 'hurricane_combined_old.geojson'))
+            except Exception as e:
+                print(f"No Hurricane for more than one day")
         with open(output_geojson_path, 'w') as f:
             f.write('{"type": "FeatureCollection", "features": []}')
         return
