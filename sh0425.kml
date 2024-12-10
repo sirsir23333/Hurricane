@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document><name>JTWC WARNINGS</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JTWC WARNINGS</name>
 	<open>1</open>
         <LookAt>
          <longitude>062.4</longitude>
@@ -10,16 +11,16 @@
          <tilt>0</tilt>
          <heading>0</heading>
         </LookAt>
-	<Style id="TropicalBalloonStyle_0">
+	<Style id="TropicalBalloonStyle">
 		<LabelStyle>
 			<scale>1.2</scale>
 		</LabelStyle>
 		<BalloonStyle>
-			<text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+			<text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
 			<bgColor>ffd9d1d1</bgColor>
 		</BalloonStyle>
-		<LineStyle id="IDstormtrack_0">
+		<LineStyle id="IDstormtrack">
 			<color>ffff00ff</color>
 			<width>2</width>
 		</LineStyle>
@@ -28,7 +29,7 @@
 			<colorMode>random</colorMode>
 		</PolyStyle>
 	</Style>
-        <StyleMap id="BestTrackStyle_0">
+        <StyleMap id="BestTrackStyle">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#BestTrackStyle0</styleUrl>
@@ -38,7 +39,7 @@
                         <styleUrl>#BestTrackStyle0</styleUrl>
                 </Pair>
         </StyleMap>
-        <StyleMap id="BestTrackStyle2_0">
+        <StyleMap id="BestTrackStyle2">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#BestTrackStyle1</styleUrl>
@@ -48,7 +49,7 @@
                         <styleUrl>#BestTrackStyle1</styleUrl>
                 </Pair>
         </StyleMap>
-        <StyleMap id="BestTrackStyle3_0">
+        <StyleMap id="BestTrackStyle3">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#BestTrackStyle5</styleUrl>
@@ -58,7 +59,7 @@
                         <styleUrl>#BestTrackStyle5</styleUrl>
                 </Pair>
         </StyleMap>
-        <Style id="BestTrackStyle0_0">
+        <Style id="BestTrackStyle0">
                 <IconStyle>
                         <scale>1.0</scale>
                         <heading>0</heading>
@@ -71,8 +72,8 @@
                    <scale>0</scale>
                 </LabelStyle>
                 <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
                         <bgColor>ffd9d1d1</bgColor>
                 </BalloonStyle>
                 <ListStyle>
@@ -86,7 +87,7 @@
                         <colorMode>random</colorMode>
                 </PolyStyle>
         </Style>
-        <Style id="BestTrackStyle1_0">
+        <Style id="BestTrackStyle1">
                 <IconStyle>
                         <scale>0.8</scale>
                         <heading>0</heading>
@@ -99,8 +100,8 @@
                    <scale>0</scale>
                 </LabelStyle>
                 <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
                         <bgColor>ffd9d1d1</bgColor>
                 </BalloonStyle>
                 <ListStyle>
@@ -114,7 +115,7 @@
                         <colorMode>random</colorMode>
                 </PolyStyle>
         </Style>
-        <Style id="BestTrackStyle5_0">
+        <Style id="BestTrackStyle5">
                 <IconStyle>
                         <scale>1.1</scale>
                         <heading>0</heading>
@@ -127,8 +128,8 @@
                    <scale>0</scale>
                 </LabelStyle>
                 <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
+                        <text><![CDATA[<table width="300" bgcolor="white" border="1" padding ="1">
+</table><b><font size="+3">$[name]</font></b><br/><font face="Courier">$[description]</font>]]></text>
                         <bgColor>ffd9d1d1</bgColor>
                 </BalloonStyle>
                 <ListStyle>
@@ -142,7 +143,7 @@
                         <colorMode>random</colorMode>
                 </PolyStyle>
         </Style>
-	<Style id="WindRadii34_0">
+	<Style id="WindRadii34">
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -151,7 +152,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="WindRadii64_0">
+	<Style id="WindRadii64">
 		<LineStyle>
 			<color>ff0000ff</color>
 			<width>2</width>
@@ -160,7 +161,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="WindRadii50_0">
+	<Style id="WindRadii50">
 		<LineStyle>
 			<color>ff5f1faf</color>
 			<width>2</width>
@@ -169,7 +170,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-        <Style id="sh_ylw-pushpin_0">
+        <Style id="sh_ylw-pushpin">
                 <IconStyle>
                         <scale>1.3</scale>
                         <Icon>
@@ -186,7 +187,7 @@
                         <fill>0</fill>
                 </PolyStyle>
         </Style>
-        <Style id="sn_ylw-pushpin_0">
+        <Style id="sn_ylw-pushpin">
                 <IconStyle>
                         <scale>1.1</scale>
                         <Icon>
@@ -203,7 +204,7 @@
                         <fill>0</fill>
                 </PolyStyle>
         </Style>
-        <StyleMap id="msn_ylw-pushpin_0">
+        <StyleMap id="msn_ylw-pushpin">
                 <Pair>
                         <key>normal</key>
                         <styleUrl>#sn_ylw-pushpin</styleUrl>
@@ -273,18 +274,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>10/06Z - 45 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 12 - 2024121006Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-10.7 S, 061.2 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;45 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 12 - 2024121006Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-10.7 S, 061.2 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>45 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B></B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -316,18 +317,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>10/18Z - 50 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 24 - 2024121018Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-10.5 S, 060.1 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;50 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;280 DEG AT 05 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 24 - 2024121018Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-10.5 S, 060.1 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>50 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>280 DEG AT 05 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -372,18 +373,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>11/06Z - 60 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 36 - 2024121106Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-10.5 S, 058.9 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;60 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;270 DEG AT 06 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 36 - 2024121106Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-10.5 S, 058.9 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>60 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>270 DEG AT 06 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -428,18 +429,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>11/18Z - 60 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 48 - 2024121118Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-10.7 S, 057.6 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;60 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;260 DEG AT 06 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 48 - 2024121118Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-10.7 S, 057.6 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>60 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>260 DEG AT 06 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -484,18 +485,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>12/18Z - 60 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 72 - 2024121218Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-11.6 S, 054.0 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;60 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;255 DEG AT 09 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 72 - 2024121218Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-11.6 S, 054.0 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>60 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>255 DEG AT 09 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -540,18 +541,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>13/18Z - 50 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 96 - 2024121318Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-12.3 S, 049.9 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;50 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;260 DEG AT 10 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 96 - 2024121318Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-12.3 S, 049.9 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>50 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>260 DEG AT 10 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -596,18 +597,18 @@ Antananarivo          367  12/14/17Z
              <Placemark>
                         <name>14/18Z - 35 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;FOUR&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 120 - 2024121418Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;-12.9 S, 046.3 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;1&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;35 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;260 DEG AT 09 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
+                    <description><![CDATA[<html>
+<head>
+<title>Requested Information</title>
+</head>
+<table width="400" bgcolor="white" border="1">
+<tr><td><B>NAME</B></td><td><B>FOUR</B></td></tr>
+<tr><td><B>TIME</B></td><td><B>TAU 120 - 2024121418Z</B></td></tr>
+<tr><td><B>POSIT</B></td><td><B>-12.9 S, 046.3 E</B></td></tr>
+<tr><td><B>WRNG NMBR</B></td><td><B>1</B></td></tr>
+<tr><td><B>WIND SPD</B></td><td><B>35 KTS</B></td></tr>
+<tr><td><B>MOVEMENT</B></td><td><B>260 DEG AT 09 KTS</B></td></tr>
+</table></body></html>]]></description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
                           <IconStyle>
@@ -820,10 +821,10 @@ Antananarivo          367  12/14/17Z
     <ScreenOverlay>
        <name>JTWC Logo</name>
            <Icon>images/JTWCtranslogo.png</Icon>
-        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction"/>
-        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction"/>
+        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction" />
+        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction" />
+        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction" />
+        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction" />
     </ScreenOverlay>
     </Folder>
 </Document>
