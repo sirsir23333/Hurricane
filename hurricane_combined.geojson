@@ -16,33 +16,33 @@
                         0.0
                     ],
                     [
-                        127.6,
-                        9.1,
+                        126.5,
+                        9.5,
                         0.0
                     ],
                     [
-                        128.768,
-                        8.934,
+                        127.986,
+                        9.815,
                         0.0
                     ],
                     [
-                        128.361,
-                        6.135,
+                        128.675,
+                        6.614,
                         0.0
                     ],
                     [
-                        126.038,
-                        6.461,
+                        125.726,
+                        5.981,
                         0.0
                     ],
                     [
-                        126.43,
-                        9.262,
+                        125.016,
+                        9.178,
                         0.0
                     ],
                     [
-                        127.6,
-                        9.1,
+                        126.5,
+                        9.5,
                         0.0
                     ]
                 ]
@@ -51,15 +51,15 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "TROPICAL CYCLONE FORMATION ALERT -\nVALID TIME:16/1500Z",
-                "description": "Intensity: 18 TO 23 KNOTS.  Motion: THE SYSTEM IS MOVING WEST-NORTHWESTWARD AT 04 KNOTS.",
+                "name": "TROPICAL CYCLONE FORMATION ALERT -\nVALID TIME:17/1500Z",
+                "description": "Intensity: 20 TO 25 KNOTS.  Motion: THE SYSTEM IS MOVING NORTH-NORTHEASTWARD AT 02 KNOTS.",
                 "styleUrl": "#BestTrackStyle0"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    127.2,
-                    6.4,
+                    127.3,
+                    6.7,
                     0.0
                 ]
             }
@@ -148,14 +148,78 @@
             "type": "Feature",
             "properties": {
                 "name": "24121606Z",
-                "description": "Intensity: 20 knots",
+                "description": "Intensity: 25 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.9,
+                    6.1,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24121612Z",
+                "description": "Intensity: 25 knots",
                 "styleUrl": "#BestTrackStyle1"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     127.6,
+                    6.2,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24121618Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.3,
                     6.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24121700Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.2,
+                    6.3,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "24121706Z",
+                "description": "Intensity: 20 knots",
+                "styleUrl": "#BestTrackStyle1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.2,
+                    6.5,
                     0.0
                 ]
             }
@@ -195,13 +259,33 @@
                         0.0
                     ],
                     [
+                        127.9,
+                        6.1,
+                        0.0
+                    ],
+                    [
                         127.6,
+                        6.2,
+                        0.0
+                    ],
+                    [
+                        127.3,
                         6.3,
                         0.0
                     ],
                     [
                         127.2,
-                        6.4,
+                        6.3,
+                        0.0
+                    ],
+                    [
+                        127.2,
+                        6.5,
+                        0.0
+                    ],
+                    [
+                        127.3,
+                        6.7,
                         0.0
                     ]
                 ]

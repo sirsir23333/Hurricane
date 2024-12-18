@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document><name>WTPN21 PGTW 161500</name>
+  <Document><name>WTPN21 PGTW 171500</name>
         <description>TROPICAL CYCLONE FORMATION ALERT</description>
 	<StyleMap id="msn_ylw-pushpin_0">
 		<Pair>
@@ -128,17 +128,17 @@
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
-127.2,6.3,0 127.6,9.1,0 128.768,8.934,0 128.361,6.135,0 126.038,6.461,0 126.430,9.262,0 127.6,9.1,0
+127.2,6.3,0 126.5,9.5,0 127.986,9.815,0 128.675,6.614,0 125.726,5.981,0 125.016,9.178,0 126.5,9.5,0
 			</coordinates>
 		</LineString>
 	</Placemark>
 	<Placemark>
            <name>TROPICAL CYCLONE FORMATION ALERT -
-VALID TIME:16/1500Z</name>
-           <description>Intensity: 18 TO 23 KNOTS.  Motion: THE SYSTEM IS MOVING WEST-NORTHWESTWARD AT 04 KNOTS.</description>
+VALID TIME:17/1500Z</name>
+           <description>Intensity: 20 TO 25 KNOTS.  Motion: THE SYSTEM IS MOVING NORTH-NORTHEASTWARD AT 02 KNOTS.</description>
            <styleUrl>#BestTrackStyle0</styleUrl>
               <Point>
-              <coordinates>127.2,6.4,0</coordinates>
+              <coordinates>127.3,6.7,0</coordinates>
               </Point>
           </Placemark>
     <Folder>
@@ -186,10 +186,42 @@ VALID TIME:16/1500Z</name>
           </Placemark>
          <Placemark>
               <name>24121606Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>127.9,6.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121612Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>127.6,6.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121618Z</name>
               <description>Intensity: 20 knots</description>
               <styleUrl>#BestTrackStyle1</styleUrl>
               <Point>
-              <coordinates>127.6,6.3,0</coordinates>
+              <coordinates>127.3,6.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121700Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>127.2,6.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121706Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>127.2,6.5,0</coordinates>
               </Point>
           </Placemark>
           <Placemark>
@@ -198,7 +230,7 @@ VALID TIME:16/1500Z</name>
                 <LineString>
                         <tessellate>1</tessellate>
                         <coordinates>
-  137.0,2.6,0  135.3,2.7,0  133.2,3.0,0  130.9,4.2,0  128.8,5.6,0  127.6,6.3,0  127.2,6.4,0 
+  137.0,2.6,0  135.3,2.7,0  133.2,3.0,0  130.9,4.2,0  128.8,5.6,0  127.9,6.1,0  127.6,6.2,0  127.3,6.3,0  127.2,6.3,0  127.2,6.5,0  127.3,6.7,0 
                         </coordinates>
                 </LineString>
             </Placemark>
