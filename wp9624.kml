@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>WTPN21 PGTW 171500</name>
+	<name>WTPN21 PGTW 181930</name>
         <description>TROPICAL CYCLONE FORMATION ALERT</description>
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
@@ -129,17 +129,17 @@
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
-127.2,6.3,0 126.5,9.5,0 127.986,9.815,0 128.675,6.614,0 125.726,5.981,0 125.016,9.178,0 126.5,9.5,0
+127.7,9.3,0 125.2,10.4,0 125.888,11.922,0 128.397,10.817,0 127.008,7.781,0 124.518,8.875,0 125.2,10.4,0
 			</coordinates>
 		</LineString>
 	</Placemark>
 	<Placemark>
            <name>TROPICAL CYCLONE FORMATION ALERT -
-VALID TIME:17/1500Z</name>
-           <description>Intensity: 20 TO 25 KNOTS.  Motion: THE SYSTEM IS MOVING NORTH-NORTHEASTWARD AT 02 KNOTS.</description>
+VALID TIME:18/1930Z</name>
+           <description>Intensity: 18 TO 23 KNOTS.  Motion: THE SYSTEM IS MOVING NORTH-NORTHWESTWARD AT 07 KNOTS.</description>
            <styleUrl>#BestTrackStyle0</styleUrl>
               <Point>
-              <coordinates>127.3,6.7,0</coordinates>
+              <coordinates>127.6,9.4,0</coordinates>
               </Point>
           </Placemark>
     <Folder>
@@ -206,7 +206,7 @@ VALID TIME:17/1500Z</name>
               <description>Intensity: 20 knots</description>
               <styleUrl>#BestTrackStyle1</styleUrl>
               <Point>
-              <coordinates>127.3,6.3,0</coordinates>
+              <coordinates>127.5,6.3,0</coordinates>
               </Point>
           </Placemark>
          <Placemark>
@@ -214,7 +214,7 @@ VALID TIME:17/1500Z</name>
               <description>Intensity: 20 knots</description>
               <styleUrl>#BestTrackStyle1</styleUrl>
               <Point>
-              <coordinates>127.2,6.3,0</coordinates>
+              <coordinates>127.6,6.3,0</coordinates>
               </Point>
           </Placemark>
          <Placemark>
@@ -222,7 +222,47 @@ VALID TIME:17/1500Z</name>
               <description>Intensity: 20 knots</description>
               <styleUrl>#BestTrackStyle1</styleUrl>
               <Point>
-              <coordinates>127.2,6.5,0</coordinates>
+              <coordinates>127.7,6.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121712Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>127.9,6.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121718Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>128.2,7.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121800Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>128.4,7.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121806Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>128.3,8.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24121812Z</name>
+              <description>Intensity: 20 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>128.0,8.8,0</coordinates>
               </Point>
           </Placemark>
           <Placemark>
@@ -231,7 +271,7 @@ VALID TIME:17/1500Z</name>
                 <LineString>
                         <tessellate>1</tessellate>
                         <coordinates>
-  137.0,2.6,0  135.3,2.7,0  133.2,3.0,0  130.9,4.2,0  128.8,5.6,0  127.9,6.1,0  127.6,6.2,0  127.3,6.3,0  127.2,6.3,0  127.2,6.5,0  127.3,6.7,0 
+  137.0,2.6,0  135.3,2.7,0  133.2,3.0,0  130.9,4.2,0  128.8,5.6,0  127.9,6.1,0  127.6,6.2,0  127.5,6.3,0  127.6,6.3,0  127.7,6.3,0  127.9,6.6,0  128.2,7.0,0  128.4,7.5,0  128.3,8.1,0  128.0,8.8,0  127.6,9.4,0 
                         </coordinates>
                 </LineString>
             </Placemark>
