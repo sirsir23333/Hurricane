@@ -129,7 +129,7 @@
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
-151.8,-19.2,0 159.5,-21.5,0 158.785,-23.736,0 150.985,-21.403,0 152.593,-16.993,0 160.193,-19.260,0 159.5,-21.5,0
+151.6,-19.1,0 159.1,-21.0,0 158.473,-23.344,0 150.869,-21.415,0 152.310,-16.781,0 159.707,-18.653,0 159.1,-21.0,0
 			</coordinates>
 		</LineString>
 	</Placemark>
@@ -251,10 +251,34 @@ VALID TIME:22/0600Z</name>
           </Placemark>
          <Placemark>
               <name>24122200Z</name>
-              <description>Intensity: 30 knots</description>
+              <description>Intensity: 25 knots</description>
               <styleUrl>#BestTrackStyle1</styleUrl>
               <Point>
               <coordinates>151.9,-19.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122206Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>152.6,-19.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122212Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>153.6,-19.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122218Z</name>
+              <description>Intensity: 25 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>154.7,-19.8,0</coordinates>
               </Point>
           </Placemark>
           <Placemark>
@@ -263,7 +287,7 @@ VALID TIME:22/0600Z</name>
                 <LineString>
                         <tessellate>1</tessellate>
                         <coordinates>
-  142.0,-14.5,0  142.2,-15,0  142.5,-15.3,0  143.0,-15.9,0  143.3,-16.8,0  144.1,-18.2,0  144.6,-18.8,0  145.4,-19.1,0  146.6,-18.5,0  147.7,-18.2,0  149.0,-18.3,0  150.1,-18.5,0  151.1,-18.8,0  151.9,-19.2,0  152.6,-19.7,0 
+  142.0,-14.5,0  142.2,-15,0  142.5,-15.3,0  143.0,-15.9,0  143.3,-16.8,0  144.1,-18.2,0  144.6,-18.8,0  145.4,-19.1,0  146.6,-18.5,0  147.7,-18.2,0  149.0,-18.3,0  150.1,-18.5,0  151.1,-18.8,0  151.9,-19.2,0  152.6,-19.4,0  153.6,-19.5,0  154.7,-19.8,0  156.2,-20.4,0 
                         </coordinates>
                 </LineString>
             </Placemark>
