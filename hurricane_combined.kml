@@ -3,8 +3,8 @@
   <Document><name>JTWC WARNINGS</name>
 	<open>1</open>
         <LookAt>
-         <longitude>112.3</longitude>
-         <latitude>11.4</latitude>
+         <longitude>110.3</longitude>
+         <latitude>09.6</latitude>
          <altitude>0</altitude>
          <range>2750000.00</range>
          <tilt>0</tilt>
@@ -216,35 +216,31 @@
 	<Folder>
              <name>PABUK</name>
              <open>1</open>
-             <description>TROPICAL DEPRESSION 28W (PABUK) WARNING NR 7    </description>
+             <description>TROPICAL DEPRESSION 28W (PABUK) WARNING NR 12    </description>
              <Folder>
                <name>Forecast</name>
              <Placemark>
-                        <name>24/00Z (TROPICAL DEPRESSION 28W (PABUK) WARNING NR 7    - 30 knots)</name>
+                        <name>25/06Z (TROPICAL DEPRESSION 28W (PABUK) WARNING NR 12    - 25 knots)</name>
                    <Snippet maxLines="0">empty</Snippet>
                <description><pre>
-TROPICAL DEPRESSION 28W (PABUK) WARNING #7
-WTPN31 PGTW 240300    
-240000Z POSIT: NEAR 11.4N 112.3E
-MOVING 195 DEGREES TRUE AT 04 KNOTS
-MAXIMUM SIGNIFICANT WAVE HEIGHT: 13 FEET 
-24/00Z, WINDS 030 KTS, GUSTS TO 040 KTS
-24/12Z, WINDS 030 KTS, GUSTS TO 040 KTS
-25/00Z, WINDS 030 KTS, GUSTS TO 040 KTS
-25/12Z, WINDS 025 KTS, GUSTS TO 035 KTS
-26/00Z, WINDS 015 KTS, GUSTS TO 025 KTS
+TROPICAL DEPRESSION 28W (PABUK) WARNING #12
+*** FINAL WARNING ***
+WTPN31 PGTW 250900    
+250600Z POSIT: NEAR 9.6N 110.3E
+MOVING 200 DEGREES TRUE AT 11 KNOTS
+MAXIMUM SIGNIFICANT WAVE HEIGHT: 11 FEET 
+25/06Z, WINDS 025 KTS, GUSTS TO 035 KTS
+25/18Z, WINDS 020 KTS, GUSTS TO 030 KTS
+26/06Z, WINDS 020 KTS, GUSTS TO 030 KTS
 ________________________________________
           
 CPA TO:               NM     DTG
-Da_Nang               332  12/25/18Z
-Ho_Chi_Minh_City       35  12/26/00Z
+Ho_Chi_Minh_City      191  12/26/03Z
 ________________________________________
           
 Bearing and Distance      Dir  Dist  TAU
                                (nm) (hrs)
-Da_Nang                   139   361    0
-Ho_Chi_Minh_City          083   332    0
-Puerto_Princesa           286   391    0               </pre>
+Ho_Chi_Minh_City          108   224    0               </pre>
                </description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
@@ -258,11 +254,11 @@ Puerto_Princesa           286   391    0               </pre>
                           </IconStyle>
                      </Style>
                      <Point>
-                                <coordinates>112.3,11.4,0</coordinates>
+                                <coordinates>110.3,09.6,0</coordinates>
                      </Point>
              </Placemark>
              <Placemark>
-                        <name>24/12Z - 30 knots</name>
+                        <name>25/18Z - 20 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
                     <description>&lt;html&gt;
 &lt;head&gt;
@@ -270,10 +266,10 @@ Puerto_Princesa           286   391    0               </pre>
 &lt;/head&gt;
 &lt;table width="400" bgcolor="white" border="1"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;PABUK&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 12 - 2024122412Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;11.1 N, 111.6 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;7&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;30 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 12 - 2024122518Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;08.3 N, 109.0 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;12&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;20 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
@@ -288,11 +284,11 @@ Puerto_Princesa           286   391    0               </pre>
                           </IconStyle>
                      </Style>
                      <Point>
-                                <coordinates>111.6,11.1,0</coordinates>
+                                <coordinates>109.0,08.3,0</coordinates>
                      </Point>
              </Placemark>
              <Placemark>
-                        <name>25/00Z - 30 knots</name>
+                        <name>26/06Z - 20 knots</name>
                    <Snippet maxLines="0">empty</Snippet>
                     <description>&lt;html&gt;
 &lt;head&gt;
@@ -300,11 +296,11 @@ Puerto_Princesa           286   391    0               </pre>
 &lt;/head&gt;
 &lt;table width="400" bgcolor="white" border="1"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;PABUK&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 24 - 2024122500Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;10.8 N, 110.6 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;7&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;30 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;255 DEG AT 05 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 24 - 2024122606Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;07.6 N, 106.9 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;12&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;20 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;250 DEG AT 11 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
                      <styleUrl>#TropicalBalloonStyle</styleUrl>
                      <Style>
@@ -318,67 +314,7 @@ Puerto_Princesa           286   391    0               </pre>
                           </IconStyle>
                      </Style>
                      <Point>
-                                <coordinates>110.6,10.8,0</coordinates>
-                     </Point>
-             </Placemark>
-             <Placemark>
-                        <name>25/12Z - 25 knots</name>
-                   <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;PABUK&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 36 - 2024122512Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;10.5 N, 109.2 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;7&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;25 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;260 DEG AT 07 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
-                     <styleUrl>#TropicalBalloonStyle</styleUrl>
-                     <Style>
-                          <IconStyle>
-                                <color>ffffffff</color>
-                                <scale>0.8</scale>
-                                <heading>0</heading>
-                                <Icon>
-                                                <href>images/TD.png</href>
-                                </Icon>
-                          </IconStyle>
-                     </Style>
-                     <Point>
-                                <coordinates>109.2,10.5,0</coordinates>
-                     </Point>
-             </Placemark>
-             <Placemark>
-                        <name>26/00Z - 15 knots</name>
-                   <Snippet maxLines="0">empty</Snippet>
-                    <description>&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Requested Information&lt;/title&gt;
-&lt;/head&gt;
-&lt;table width="400" bgcolor="white" border="1"&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;NAME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;PABUK&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;TIME&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;TAU 48 - 2024122600Z&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;POSIT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;10.5 N, 107.2 E&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WRNG NMBR&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;7&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;WIND SPD&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;15 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;B&gt;MOVEMENT&lt;/B&gt;&lt;/td&gt;&lt;td&gt;&lt;B&gt;270 DEG AT 10 KTS&lt;/B&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</description>
-                     <styleUrl>#TropicalBalloonStyle</styleUrl>
-                     <Style>
-                          <IconStyle>
-                                <color>ffffffff</color>
-                                <scale>0.8</scale>
-                                <heading>0</heading>
-                                <Icon>
-                                                <href>images/TD.png</href>
-                                </Icon>
-                          </IconStyle>
-                     </Style>
-                     <Point>
-                                <coordinates>107.2,10.5,0</coordinates>
+                                <coordinates>106.9,07.6,0</coordinates>
                      </Point>
              </Placemark>
                   <Placemark>
@@ -387,7 +323,7 @@ Puerto_Princesa           286   391    0               </pre>
                       <LineString>
                               <tessellate>1</tessellate>
                               <coordinates>
-112.3,11.4,0 111.6,11.1,0 110.6,10.8,0 109.2,10.5,0 107.2,10.5,0                               </coordinates>
+110.3,09.6,0 109.0,08.3,0 106.9,07.6,0                               </coordinates>
                       </LineString>
                   </Placemark>
     <Placemark>
@@ -398,7 +334,7 @@ Puerto_Princesa           286   391    0               </pre>
                 <outerBoundaryIs>
                        <LinearRing>
                                <coordinates>
-107.3300,11.7400,0 107.3632,11.7353,0 107.3972,11.7304,0 107.4338,11.7249,0 107.4763,11.7183,0 107.5305,11.7100,0 107.6046,11.6992,0 107.7088,11.6854,0 107.8534,11.6680,0 108.0456,11.6475,0 108.2874,11.6247,0 108.5725,11.6015,0 108.8869,11.5798,0 109.2107,11.5617,0 109.5223,11.5482,0 109.8033,11.5397,0 110.0419,11.5354,0 110.2342,11.5342,0 110.3834,11.5346,0 110.4972,11.5353,0 110.5856,11.5354,0 110.6582,11.5346,0 110.7235,11.5327,0 110.7888,11.5300,0 110.8592,11.5269,0 110.9386,11.5238,0 111.0284,11.5214,0 111.1284,11.5203,0 111.2366,11.5212,0 111.3502,11.5247,0 111.4665,11.5311,0 111.5828,11.5405,0 111.6968,11.5526,0 111.8062,11.5665,0 111.9085,11.5812,0 112.0015,11.5955,0 112.0832,11.6082,0 112.1527,11.6186,0 112.2104,11.6263,0 112.2574,11.6312,0 112.2956,11.6336,0 112.3265,11.6338,0 112.3519,11.6323,0 112.3729,11.6296,0 112.3903,11.6259,0 112.4049,11.6217,0 112.4172,11.6171,0 112.4278,11.6123,0 112.4370,11.6074,0 112.4452,11.6025,0 112.4526,11.5975,0 112.4593,11.5925,0 112.4655,11.5875,0 112.4713,11.5824,0 112.4769,11.5774,0 112.4822,11.5722,0 112.4873,11.5669,0 112.4924,11.5615,0 112.4974,11.5558,0 112.5023,11.5499,0 112.5071,11.5437,0 112.5117,11.5373,0 112.5162,11.5307,0 112.5205,11.5238,0 112.5245,11.5169,0 112.5283,11.5098,0 112.5317,11.5027,0 112.5348,11.4954,0 112.5377,11.4880,0 112.5403,11.4805,0 112.5426,11.4727,0 112.5447,11.4648,0 112.5464,11.4566,0 112.5480,11.4483,0 112.5493,11.4398,0 112.5503,11.4313,0 112.5512,11.4228,0 112.5517,11.4141,0 112.5520,11.4055,0 112.5520,11.3968,0 112.5517,11.3879,0 112.5511,11.3790,0 112.5503,11.3700,0 112.5491,11.3610,0 112.5477,11.3521,0 112.5459,11.3433,0 112.5439,11.3347,0 112.5415,11.3261,0 112.5387,11.3177,0 112.5356,11.3094,0 112.5323,11.3012,0 112.5287,11.2931,0 112.5248,11.2852,0 112.5207,11.2776,0 112.5163,11.2702,0 112.5118,11.2632,0 112.5071,11.2565,0 112.5023,11.2502,0 112.4974,11.2442,0 112.4924,11.2385,0 112.4873,11.2331,0 112.4821,11.2278,0 112.4767,11.2225,0 112.4709,11.2172,0 112.4644,11.2116,0 112.4565,11.2053,0 112.4464,11.1977,0 112.4327,11.1878,0 112.4136,11.1744,0 112.3875,11.1560,0 112.3528,11.1317,0 112.3091,11.1010,0 112.2574,11.0646,0 112.2002,11.0241,0 112.1413,10.9822,0 112.0848,10.9419,0 112.0346,10.9058,0 111.9928,10.8756,0 111.9602,10.8517,0 111.9360,10.8336,0 111.9184,10.8201,0 111.9053,10.8098,0 111.8950,10.8013,0 111.8861,10.7939,0 111.8777,10.7869,0 111.8694,10.7801,0 111.8610,10.7733,0 111.8526,10.7668,0 111.8440,10.7604,0 111.8352,10.7543,0 111.8260,10.7483,0 111.8160,10.7422,0 111.8047,10.7355,0 111.7911,10.7275,0 111.7735,10.7170,0 111.7502,10.7026,0 111.7191,10.6829,0 111.6786,10.6564,0 111.6280,10.6227,0 111.5682,10.5822,0 111.5021,10.5368,0 111.4338,10.4892,0 111.3680,10.4426,0 111.3087,10.4000,0 111.2586,10.3633,0 111.2186,10.3332,0 111.1879,10.3094,0 111.1649,10.2908,0 111.1473,10.2760,0 111.1333,10.2639,0 111.1214,10.2535,0 111.1105,10.2440,0 111.1002,10.2352,0 111.0901,10.2267,0 111.0800,10.2186,0 111.0700,10.2106,0 111.0600,10.2029,0 111.0500,10.1954,0 111.0400,10.1881,0 111.0300,10.1810,0 111.0200,10.1742,0 111.0100,10.1676,0 111.0000,10.1613,0 110.9900,10.1552,0 110.9799,10.1493,0 110.9698,10.1437,0 110.9596,10.1382,0 110.9493,10.1329,0 110.9387,10.1277,0 110.9277,10.1226,0 110.9162,10.1175,0 110.9040,10.1124,0 110.8906,10.1071,0 110.8754,10.1014,0 110.8570,10.0949,0 110.8333,10.0869,0 110.8011,10.0761,0 110.7560,10.0611,0 110.6937,10.0403,0 110.6106,10.0125,0 110.5054,9.9770,0 110.3802,9.9346,0 110.2413,9.8874,0 110.0978,9.8384,0 109.9600,9.7911,0 109.8368,9.7487,0 109.7341,9.7133,0 109.6535,9.6853,0 109.5934,9.6645,0 109.5496,9.6494,0 109.5169,9.6384,0 109.4906,9.6300,0 109.4661,9.6231,0 109.4392,9.6164,0 109.4055,9.6092,0 109.3595,9.6005,0 109.2954,9.5893,0 109.2068,9.5746,0 109.0890,9.5556,0 108.9406,9.5318,0 108.7649,9.5039,0 108.5706,9.4730,0 108.3705,9.4410,0 108.1788,9.4101,0 108.0078,9.3820,0 107.8655,9.3581,0 107.7541,9.3387,0 107.6711,9.3235,0 107.6109,9.3118,0 107.5666,9.3027,0 107.5318,9.2953,0 107.5015,9.2891,0 107.4720,9.2836,0 107.4408,9.2786,0 107.4061,9.2741,0 107.3671,9.2703,0 107.3235,9.2671,0 107.2757,9.2649,0 107.2249,9.2638,0 107.1730,9.2637,0 107.1221,9.2649,0 107.0739,9.2671,0 107.0300,9.2702,0 106.9909,9.2740,0 106.9566,9.2783,0 106.9267,9.2830,0 106.9003,9.2879,0 106.8767,9.2930,0 106.8550,9.2983,0 106.8346,9.3038,0 106.8150,9.3096,0 106.7958,9.3158,0 106.7768,9.3223,0 106.7577,9.3293,0 106.7385,9.3367,0 106.7191,9.3447,0 106.6995,9.3531,0 106.6798,9.3619,0 106.6601,9.3711,0 106.6405,9.3805,0 106.6212,9.3901,0 106.6021,9.3997,0 106.5836,9.4093,0 106.5658,9.4189,0 106.5488,9.4283,0 106.5325,9.4376,0 106.5171,9.4468,0 106.5024,9.4559,0 106.4884,9.4649,0 106.4750,9.4738,0 106.4621,9.4825,0 106.4497,9.4912,0 106.4378,9.4999,0 106.4262,9.5086,0 106.4147,9.5175,0 106.4033,9.5267,0 106.3918,9.5362,0 106.3801,9.5461,0 106.3682,9.5564,0 106.3559,9.5673,0 106.3432,9.5787,0 106.3303,9.5907,0 106.3171,9.6032,0 106.3038,9.6162,0 106.2905,9.6295,0 106.2774,9.6431,0 106.2645,9.6566,0 106.2521,9.6700,0 106.2401,9.6832,0 106.2286,9.6962,0 106.2176,9.7088,0 106.2071,9.7212,0 106.1970,9.7334,0 106.1874,9.7455,0 106.1781,9.7575,0 106.1690,9.7696,0 106.1601,9.7819,0 106.1514,9.7944,0 106.1427,9.8072,0 106.1339,9.8203,0 106.1251,9.8340,0 106.1162,9.8483,0 106.1072,9.8634,0 106.0980,9.8793,0 106.0887,9.8961,0 106.0793,9.9138,0 106.0698,9.9322,0 106.0604,9.9511,0 106.0510,9.9704,0 106.0419,9.9899,0 106.0331,10.0094,0 106.0247,10.0287,0 106.0168,10.0478,0 106.0094,10.0664,0 106.0025,10.0845,0 105.9961,10.1022,0 105.9903,10.1195,0 105.9848,10.1364,0 105.9798,10.1532,0 105.9751,10.1700,0 105.9707,10.1869,0 105.9664,10.2039,0 105.9624,10.2212,0 105.9586,10.2387,0 105.9549,10.2564,0 105.9514,10.2744,0 105.9481,10.2927,0 105.9451,10.3115,0 105.9423,10.3306,0 105.9397,10.3503,0 105.9375,10.3704,0 105.9356,10.3909,0 105.9340,10.4119,0 105.9327,10.4331,0 105.9319,10.4544,0 105.9313,10.4760,0 105.9311,10.4975,0 105.9313,10.5191,0 105.9318,10.5406,0 105.9326,10.5621,0 105.9337,10.5833,0 105.9352,10.6043,0 105.9369,10.6250,0 105.9390,10.6452,0 105.9413,10.6651,0 105.9440,10.6846,0 105.9471,10.7040,0 105.9506,10.7231,0 105.9543,10.7423,0 105.9585,10.7615,0 105.9628,10.7808,0 105.9673,10.8000,0 105.9721,10.8190,0 105.9770,10.8380,0 105.9822,10.8567,0 105.9877,10.8754,0 105.9937,10.8941,0 106.0002,10.9130,0 106.0073,10.9320,0 106.0150,10.9512,0 106.0233,10.9707,0 106.0320,10.9903,0 106.0412,11.0100,0 106.0506,11.0296,0 106.0602,11.0492,0 106.0699,11.0684,0 106.0796,11.0872,0 106.0892,11.1054,0 106.0987,11.1229,0 106.1081,11.1396,0 106.1174,11.1555,0 106.1266,11.1706,0 106.1358,11.1851,0 106.1450,11.1991,0 106.1544,11.2127,0 106.1638,11.2259,0 106.1732,11.2387,0 106.1825,11.2511,0 106.1916,11.2629,0 106.2004,11.2741,0 106.2090,11.2846,0 106.2173,11.2944,0 106.2254,11.3038,0 106.2335,11.3128,0 106.2415,11.3217,0 106.2496,11.3305,0 106.2578,11.3394,0 106.2659,11.3484,0 106.2741,11.3574,0 106.2824,11.3664,0 106.2907,11.3753,0 106.2991,11.3841,0 106.3078,11.3929,0 106.3168,11.4015,0 106.3262,11.4102,0 106.3360,11.4190,0 106.3463,11.4279,0 106.3569,11.4369,0 106.3679,11.4461,0 106.3792,11.4553,0 106.3905,11.4645,0 106.4019,11.4737,0 106.4134,11.4827,0 106.4250,11.4917,0 106.4368,11.5006,0 106.4489,11.5095,0 106.4614,11.5183,0 106.4744,11.5271,0 106.4878,11.5360,0 106.5016,11.5448,0 106.5159,11.5535,0 106.5306,11.5623,0 106.5456,11.5710,0 106.5611,11.5796,0 106.5770,11.5883,0 106.5932,11.5970,0 106.6099,11.6056,0 106.6269,11.6142,0 106.6444,11.6228,0 106.6621,11.6313,0 106.6802,11.6396,0 106.6984,11.6477,0 106.7167,11.6554,0 106.7351,11.6629,0 106.7536,11.6700,0 106.7724,11.6767,0 106.7915,11.6831,0 106.8110,11.6893,0 106.8311,11.6952,0 106.8520,11.7009,0 106.8742,11.7064,0 106.8980,11.7117,0 106.9245,11.7167,0 106.9546,11.7215,0 106.9897,11.7259,0 107.0308,11.7298,0 107.0787,11.7330,0 107.1337,11.7356,0 107.1950,11.7375,0 107.2612,11.7389,0 107.3300,11.7400,0                                </coordinates>
+110.3600,9.8400,0 110.3731,9.8356,0 110.3858,9.8311,0 110.3979,9.8265,0 110.4091,9.8219,0 110.4195,9.8171,0 110.4289,9.8123,0 110.4376,9.8074,0 110.4455,9.8024,0 110.4527,9.7975,0 110.4594,9.7924,0 110.4655,9.7873,0 110.4713,9.7822,0 110.4769,9.7769,0 110.4822,9.7715,0 110.4873,9.7658,0 110.4924,9.7598,0 110.4975,9.7534,0 110.5024,9.7467,0 110.5074,9.7396,0 110.5123,9.7321,0 110.5171,9.7242,0 110.5217,9.7159,0 110.5262,9.7073,0 110.5304,9.6983,0 110.5342,9.6890,0 110.5377,9.6794,0 110.5407,9.6697,0 110.5433,9.6599,0 110.5453,9.6499,0 110.5469,9.6400,0 110.5480,9.6300,0 110.5488,9.6201,0 110.5492,9.6101,0 110.5494,9.6003,0 110.5493,9.5906,0 110.5489,9.5810,0 110.5483,9.5716,0 110.5473,9.5624,0 110.5460,9.5534,0 110.5444,9.5446,0 110.5425,9.5359,0 110.5403,9.5274,0 110.5377,9.5189,0 110.5349,9.5106,0 110.5319,9.5025,0 110.5285,9.4946,0 110.5247,9.4867,0 110.5203,9.4787,0 110.5146,9.4696,0 110.5063,9.4580,0 110.4933,9.4411,0 110.4723,9.4151,0 110.4391,9.3746,0 110.3891,9.3142,0 110.3183,9.2292,0 110.2254,9.1177,0 110.1123,8.9821,0 109.9848,8.8292,0 109.8520,8.6698,0 109.7241,8.5161,0 109.6099,8.3789,0 109.5155,8.2654,0 109.4430,8.1780,0 109.3909,8.1152,0 109.3554,8.0725,0 109.3322,8.0446,0 109.3168,8.0266,0 109.3061,8.0144,0 109.2977,8.0055,0 109.2905,7.9983,0 109.2836,7.9920,0 109.2767,7.9860,0 109.2697,7.9802,0 109.2626,7.9745,0 109.2554,7.9689,0 109.2481,7.9634,0 109.2405,7.9580,0 109.2323,7.9525,0 109.2230,7.9468,0 109.2115,7.9401,0 109.1956,7.9316,0 109.1720,7.9194,0 109.1354,7.9009,0 109.0792,7.8726,0 108.9963,7.8309,0 108.8807,7.7726,0 108.7302,7.6966,0 108.5482,7.6044,0 108.3442,7.5009,0 108.1325,7.3932,0 107.9293,7.2896,0 107.7487,7.1971,0 107.5999,7.1206,0 107.4860,7.0617,0 107.4044,7.0190,0 107.3489,6.9897,0 107.3121,6.9700,0 107.2873,6.9567,0 107.2693,6.9470,0 107.2548,6.9393,0 107.2417,6.9326,0 107.2290,6.9264,0 107.2163,6.9204,0 107.2034,6.9147,0 107.1901,6.9090,0 107.1762,6.9035,0 107.1616,6.8982,0 107.1459,6.8929,0 107.1286,6.8879,0 107.1091,6.8830,0 107.0868,6.8783,0 107.0609,6.8740,0 107.0310,6.8702,0 106.9971,6.8671,0 106.9597,6.8649,0 106.9200,6.8637,0 106.8795,6.8637,0 106.8398,6.8649,0 106.8026,6.8671,0 106.7688,6.8702,0 106.7388,6.8740,0 106.7128,6.8783,0 106.6903,6.8829,0 106.6707,6.8877,0 106.6532,6.8926,0 106.6375,6.8975,0 106.6230,6.9025,0 106.6095,6.9075,0 106.5968,6.9126,0 106.5847,6.9177,0 106.5731,6.9229,0 106.5619,6.9281,0 106.5511,6.9335,0 106.5406,6.9391,0 106.5302,6.9448,0 106.5200,6.9507,0 106.5098,6.9568,0 106.4996,6.9631,0 106.4894,6.9696,0 106.4792,6.9764,0 106.4690,6.9834,0 106.4590,6.9906,0 106.4490,6.9979,0 106.4392,7.0052,0 106.4296,7.0126,0 106.4202,7.0201,0 106.4110,7.0275,0 106.4020,7.0351,0 106.3932,7.0428,0 106.3846,7.0506,0 106.3761,7.0585,0 106.3676,7.0667,0 106.3592,7.0751,0 106.3509,7.0837,0 106.3425,7.0925,0 106.3342,7.1016,0 106.3260,7.1110,0 106.3178,7.1206,0 106.3098,7.1303,0 106.3020,7.1401,0 106.2944,7.1499,0 106.2871,7.1597,0 106.2803,7.1695,0 106.2738,7.1791,0 106.2677,7.1885,0 106.2619,7.1978,0 106.2564,7.2070,0 106.2510,7.2160,0 106.2457,7.2252,0 106.2403,7.2344,0 106.2350,7.2439,0 106.2297,7.2536,0 106.2243,7.2636,0 106.2190,7.2739,0 106.2139,7.2843,0 106.2090,7.2949,0 106.2044,7.3055,0 106.2001,7.3160,0 106.1960,7.3264,0 106.1920,7.3368,0 106.1882,7.3473,0 106.1845,7.3580,0 106.1807,7.3692,0 106.1770,7.3809,0 106.1733,7.3932,0 106.1697,7.4060,0 106.1663,7.4194,0 106.1631,7.4331,0 106.1602,7.4471,0 106.1577,7.4612,0 106.1555,7.4752,0 106.1535,7.4889,0 106.1517,7.5023,0 106.1502,7.5151,0 106.1487,7.5273,0 106.1473,7.5389,0 106.1459,7.5500,0 106.1446,7.5608,0 106.1435,7.5714,0 106.1427,7.5821,0 106.1421,7.5930,0 106.1419,7.6042,0 106.1421,7.6156,0 106.1427,7.6274,0 106.1435,7.6393,0 106.1446,7.6514,0 106.1459,7.6635,0 106.1472,7.6754,0 106.1486,7.6870,0 106.1500,7.6983,0 106.1515,7.7092,0 106.1529,7.7196,0 106.1545,7.7296,0 106.1561,7.7393,0 106.1579,7.7489,0 106.1598,7.7585,0 106.1619,7.7682,0 106.1643,7.7782,0 106.1670,7.7887,0 106.1699,7.7996,0 106.1732,7.8108,0 106.1768,7.8222,0 106.1806,7.8338,0 106.1846,7.8452,0 106.1887,7.8564,0 106.1929,7.8674,0 106.1972,7.8781,0 106.2015,7.8885,0 106.2058,7.8987,0 106.2102,7.9087,0 106.2146,7.9186,0 106.2191,7.9284,0 106.2239,7.9382,0 106.2288,7.9480,0 106.2340,7.9579,0 106.2394,7.9678,0 106.2450,7.9777,0 106.2508,7.9875,0 106.2567,7.9972,0 106.2627,8.0067,0 106.2688,8.0160,0 106.2750,8.0251,0 106.2814,8.0342,0 106.2879,8.0432,0 106.2948,8.0523,0 106.3019,8.0615,0 106.3094,8.0709,0 106.3172,8.0805,0 106.3253,8.0902,0 106.3338,8.1000,0 106.3426,8.1098,0 106.3517,8.1195,0 106.3610,8.1290,0 106.3706,8.1384,0 106.3803,8.1475,0 106.3902,8.1563,0 106.4001,8.1649,0 106.4100,8.1733,0 106.4201,8.1815,0 106.4301,8.1894,0 106.4403,8.1972,0 106.4506,8.2048,0 106.4610,8.2123,0 106.4716,8.2196,0 106.4824,8.2267,0 106.4933,8.2338,0 106.5045,8.2406,0 106.5157,8.2473,0 106.5269,8.2537,0 106.5381,8.2599,0 106.5493,8.2658,0 106.5606,8.2714,0 106.5720,8.2768,0 106.5838,8.2820,0 106.5959,8.2870,0 106.6084,8.2919,0 106.6215,8.2967,0 106.6355,8.3015,0 106.6511,8.3065,0 106.6700,8.3123,0 106.6953,8.3198,0 106.7327,8.3311,0 106.7905,8.3493,0 106.8799,8.3787,0 107.0139,8.4251,0 107.2038,8.4938,0 107.4561,8.5893,0 107.7682,8.7122,0 108.1266,8.8589,0 108.5083,9.0210,0 108.8847,9.1867,0 109.2282,9.3432,0 109.5186,9.4800,0 109.7458,9.5908,0 109.9108,9.6739,0 110.0226,9.7321,0 110.0942,9.7703,0 110.1388,9.7942,0 110.1675,9.8090,0 110.1885,9.8184,0 110.2070,9.8247,0 110.2263,9.8294,0 110.2478,9.8329,0 110.2722,9.8356,0 110.2996,9.8375,0 110.3292,9.8389,0 110.3600,9.8400,0                                </coordinates>
                        </LinearRing>
                 </outerBoundaryIs>
         </Polygon>
@@ -497,10 +433,50 @@ Puerto_Princesa           286   391    0               </pre>
           </Placemark>
          <Placemark>
               <name>24122318Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>112.3,11.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122400Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>112.3,11.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122406Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>111.9,11.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122412Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>111.6,11.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122418Z</name>
+              <description>Intensity: 30 knots</description>
+              <styleUrl>#BestTrackStyle1</styleUrl>
+              <Point>
+              <coordinates>111.2,11.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+              <name>24122500Z</name>
               <description>Intensity: 25 knots</description>
               <styleUrl>#BestTrackStyle1</styleUrl>
               <Point>
-              <coordinates>112.4,11.8,0</coordinates>
+              <coordinates>110.7,10.6,0</coordinates>
               </Point>
           </Placemark>
           <Placemark>
@@ -509,7 +485,7 @@ Puerto_Princesa           286   391    0               </pre>
                 <LineString>
                         <tessellate>1</tessellate>
                         <coordinates>
-  117.3,8.9,0  116.6,9.1,0  115.9,9.3,0  115.2,9.5,0  114.6,9.7,0  114.0,9.9,0  113.6,10.1,0  113.3,10.4,0  113.0,10.7,0  112.8,11.0,0  112.7,11.4,0  112.4,11.8,0  112.3,11.4,0 
+  117.3,8.9,0  116.6,9.1,0  115.9,9.3,0  115.2,9.5,0  114.6,9.7,0  114.0,9.9,0  113.6,10.1,0  113.3,10.4,0  113.0,10.7,0  112.8,11.0,0  112.7,11.4,0  112.3,11.7,0  112.3,11.5,0  111.9,11.8,0  111.6,11.4,0  111.2,11.1,0  110.7,10.6,0  110.3,09.6,0 
                         </coordinates>
                 </LineString>
             </Placemark>
@@ -523,304 +499,5 @@ Puerto_Princesa           286   391    0               </pre>
         <size x="0.1" y="0.0" xunits="fraction" yunits="fraction"/>
     </ScreenOverlay>
     </Folder>
-<name>WTPS21 PGTW 220600</name>
-        <description>TROPICAL CYCLONE FORMATION ALERT</description>
-	<StyleMap id="msn_ylw-pushpin_1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin_1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f00ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin_1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f00ff</color>
-			<width>2</width>
-		</LineStyle>
-	</Style>
-	<Style id="TropicalBalloonStyle_1">
-		<LabelStyle>
-			<scale>1.2</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
-			<bgColor>ffd9d1d1</bgColor>
-		</BalloonStyle>
-		<LineStyle id="IDstormtrack_1">
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7f7faaaa</color>
-			<colorMode>random</colorMode>
-		</PolyStyle>
-	</Style>
-        <StyleMap id="BestTrackStyle_1">
-                <Pair>
-                        <key>normal</key>
-                        <styleUrl>#BestTrackStyle0</styleUrl>
-                </Pair>
-                <Pair>
-                        <key>highlight</key>
-                        <styleUrl>#BestTrackStyle0</styleUrl>
-                </Pair>
-        </StyleMap>
-        <Style id="BestTrackStyle0_1">
-                <IconStyle>
-                        <scale>0.8</scale>
-                        <heading>0</heading>
-                        <Icon>
-                                <href>images/TD.png</href>
-                        </Icon>
-                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-                </IconStyle>
-                <LabelStyle>
-                   <scale>0</scale>
-                </LabelStyle>
-                <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
-                        <bgColor>ffd9d1d1</bgColor>
-                </BalloonStyle>
-                <ListStyle>
-                </ListStyle>
-                <LineStyle>
-                        <color>ff7faaaa</color>
-                        <width>2</width>
-                </LineStyle>
-                <PolyStyle>
-                        <color>7f7faaaa</color>
-                        <colorMode>random</colorMode>
-                </PolyStyle>
-        </Style>
-        <Style id="BestTrackStyle1_1">
-                <IconStyle>
-                        <scale>0.8</scale>
-                        <heading>0</heading>
-                        <Icon>
-                                <href>images/TDgray.png</href>
-                        </Icon>
-                        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-                </IconStyle>
-                <LabelStyle>
-                   <scale>0</scale>
-                </LabelStyle>
-                <BalloonStyle>
-                        <text>&lt;table width="300" bgcolor="white" border="1" padding ="1"&gt;
-&lt;/table&gt;&lt;b&gt;&lt;font size="+3"&gt;$[name]&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font face="Courier"&gt;$[description]&lt;/font&gt;</text>
-                        <bgColor>ffd9d1d1</bgColor>
-                </BalloonStyle>
-                <ListStyle>
-                </ListStyle>
-                <LineStyle>
-                        <color>ff7faaaa</color>
-                        <width>2</width>
-                </LineStyle>
-                <PolyStyle>
-                        <color>7f7faaaa</color>
-                        <colorMode>random</colorMode>
-                </PolyStyle>
-        </Style>
-	<Placemark>
-		<name>TCFA AREA</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
-		<LineString>
-			<tessellate>1</tessellate>
-			<coordinates>
-151.6,-19.1,0 159.1,-21.0,0 158.473,-23.344,0 150.869,-21.415,0 152.310,-16.781,0 159.707,-18.653,0 159.1,-21.0,0
-			</coordinates>
-		</LineString>
-	</Placemark>
-	<Placemark>
-           <name>TROPICAL CYCLONE FORMATION ALERT -
-VALID TIME:22/0600Z</name>
-           <description>Intensity: 25 TO 30 KNOTS.  Motion: THE SYSTEM IS MOVING SOUTHEASTWARD AT 08 KNOTS.</description>
-           <styleUrl>#BestTrackStyle0</styleUrl>
-              <Point>
-              <coordinates>152.6,-19.7,0</coordinates>
-              </Point>
-          </Placemark>
-    <Folder>
-       <name>Previous Best Track Posits</name>
-       <visibility>0</visibility>
-         <Placemark>
-              <name>24121818Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>142.0,-14.5,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24121900Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>142.2,-15,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24121906Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>142.5,-15.3,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24121912Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>143.0,-15.9,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24121918Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>143.3,-16.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122000Z</name>
-              <description>Intensity: 20 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>144.1,-18.2,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122006Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>144.6,-18.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122012Z</name>
-              <description>Intensity: 15 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>145.4,-19.1,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122018Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>146.6,-18.5,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122100Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>147.7,-18.2,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122106Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>149.0,-18.3,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122112Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>150.1,-18.5,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122118Z</name>
-              <description>Intensity: 30 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>151.1,-18.8,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122200Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>151.9,-19.2,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122206Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>152.6,-19.4,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122212Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>153.6,-19.5,0</coordinates>
-              </Point>
-          </Placemark>
-         <Placemark>
-              <name>24122218Z</name>
-              <description>Intensity: 25 knots</description>
-              <styleUrl>#BestTrackStyle1</styleUrl>
-              <Point>
-              <coordinates>154.7,-19.8,0</coordinates>
-              </Point>
-          </Placemark>
-          <Placemark>
-                <name>Best Track</name>
-                <styleUrl>#BestTrack</styleUrl>
-                <LineString>
-                        <tessellate>1</tessellate>
-                        <coordinates>
-  142.0,-14.5,0  142.2,-15,0  142.5,-15.3,0  143.0,-15.9,0  143.3,-16.8,0  144.1,-18.2,0  144.6,-18.8,0  145.4,-19.1,0  146.6,-18.5,0  147.7,-18.2,0  149.0,-18.3,0  150.1,-18.5,0  151.1,-18.8,0  151.9,-19.2,0  152.6,-19.4,0  153.6,-19.5,0  154.7,-19.8,0  156.2,-20.4,0 
-                        </coordinates>
-                </LineString>
-            </Placemark>
-    </Folder>
-    <ScreenOverlay>
-       <name>JTWC Logo</name>
-           <Icon>images/JTWCtranslogo.png</Icon>
-        <overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction"/>
-        <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
-        <size x="0.1" y="0.0" xunits="fraction" yunits="fraction"/>
-    </ScreenOverlay>
 </Document>
 </kml>
